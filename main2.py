@@ -26,9 +26,10 @@ def main():
   problem += lpSum([variables[events[1]], variables[events[2]]]) - lpSum([variables[events[0]], variables[events[2]]]) == 0, "mediums landing criterion" 
   problem += lpSum([variables[events[0]], variables[events[1]]]) >= 1
 
+  genoutput(problem, variables)
 
 
-def genconstraints(problem, events, costs)
+#def genconstraints(problem, events, costs)
 
 
 def genevents(types):
@@ -39,7 +40,7 @@ def genevents(types):
       events.append(typ + "->" + ty)
   return events
 
-def genoutput(problem):
+def genoutput(problem,variables):
   problem.writeLP("Simplified_problem.lp")
   with open('problemout.txt', 'w') as problemout:
     problem.solve()
