@@ -7,7 +7,7 @@ class Problem:
     s.number = {"heavy" : 3,
               "medium": 3,
               "T": 6}
-    s.types = ["heavy", "medium", "T"]
+    s.types = ["heavy", "medium"]
     s.events = s.genevents()
   #  print(events)
 
@@ -22,11 +22,12 @@ class Problem:
 
     print(s.costs["heavy->medium"])
     s.problem = LpProblem("Runway Optimization", LpMinimize)        #Minimizing Problem
-    s.variables = LpVariable.dicts("Variables", events, cat='Integer', lowBound = 0)
-    s.problem += lpSum([costs[i]*variables[i] for i in events]), "Total runway time used"
+    s.variables = LpVariable.dicts("Variables", s.events, cat='Integer', lowBound = 0)
+    s.problem += lpSum([s.costs[i]*s.variables[i] for i in s.events]), "Total runway time used"
     for typ in s.types:
-      s.problem += lpSum(s.end_begin(-1)) == s.number[typ], "Number of " + typ + " landed"
-      s.problem += lpSum(s.end_begin(-1)) - lpSum(s.end_begin(0)) == 0, "head-tails constraint of " + typ
+      s.problem += lpSum(s.end_begin(-1, typ)) == s.number[typ], "Number of " + typ + " landed"
+      s.problem += lpSum(s.end_begin(-1, typ)) - lpSum(s.end_begin(0, typ)) == 0, "head-tails constraint of " + typ
+
 
   #  problem += lpSum([variables["medium->heavy"], variables["heavy->heavy"], variables["heavy"]]) == heavys, "Number of heavys landed"
   #
@@ -55,7 +56,7 @@ class Problem:
     events = []
     for typ in s.types:
       events.append("0->"+typ)
-      for ty in types:
+      for ty in s.types:
         events.append(ty + "->" + typ)
     return events
 
@@ -63,15 +64,15 @@ class Problem:
     s.problem.writeLP("Simplified_problem.lp")
     with open('problemout.txt', 'w') as problemout:
       s.problem.solve()
-      print ("status: ", LpStatus[problem.status])
-      problemout.write(str(variables))
+      print ("status: ", LpStatus[s.problem.status])
+      problemout.write(str(s.variables))
       for v in s.problem.variables():
         print(v.name, "=", v.varValue)
     #    problemout.write(str(v.name, "=", v.varValue))
     print ("done")
 
-  def end_begin(s, x):
-    return [variables[event] for i, event in enumerate(events) if events[i].split("->")[x] == typ]
+  def end_begin(s, x, typ):
+    return [s.variables[event] for event in s.events if event.split("->")[x] == typ]
 
 if __name__ == "__main__":
   s = Problem()
