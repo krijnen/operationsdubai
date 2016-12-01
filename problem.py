@@ -3,13 +3,14 @@ from pulp import *
 import numpy as np
 
 class Problem:
-  def __init__(self, types, landings, to_events, takeoffs):
+  def __init__(self, types, planes):
     """ Function to initialize the class. This function is run as soon as the class is created. The variable self is the internal name of the object"""            
-    self.landings = landings              # nr of landings
-    self.types = types                    # aircraft types
-    self.to_events = to_events            # takeoffs
-    self.takeoffs = takeoffs
+#    self.landings = landings              # nr of landings
+    self.types = types                      # aircraft types
+#    self.to_events = to_events            # takeoffs
+#    self.takeoffs = takeoffs
     self.events = self.genevents()
+    self.planes = planes
     self.costs = self.gencosts()    
     self.problem = LpProblem("Runway Optimization", LpMinimize)        #Minimizing Problem
     self.variables = LpVariable.dicts("Variables", self.events, cat='Integer', lowBound = 0)
@@ -23,13 +24,13 @@ class Problem:
   def genconstraints(self):
     """Function to generate the constraints, a string is added to each one of them to describe the constraint textually"""
     for typ in self.types:
-      self.problem += lpSum(self.end_begin(-1, typ)) == self.landings[typ], "Number of " + typ + " landed"
+      self.problem += lpSum(self.end_begin(-1, typ)) == self.types[typ], "Number of " + typ + " landed"
       # For every landing aircraft type there should be a switch to that type (eg. medium -> heavy)
       self.problem += lpSum([self.variables[event] for event in self.events if event.split("->")[-1] == typ and event.split("->")[0] != typ ])>= 1, "switch to " + typ 
       # For every switch to a type there should be a switch away from that type
       self.problem += lpSum(self.end_begin(-1, typ)) - lpSum(self.end_begin(0, typ)) == 0, "head-tails constraint of " + typ
-    for to in self.to_events:
-      self.problem += lpSum(self.middle(to)) == self.takeoffs[to], "Number of take-offs of " + to
+    #for to in self.to_events:
+    #  self.problem += lpSum(self.middle(to)) == self.takeoffs[to], "Number of take-offs of " + to
     self.problem += lpSum([self.variables[event] for event in self.events if event.split("->")[0] =="0"]) == 1, "starting plane criterion"       #only one starting plane
     self.problem += lpSum([self.variables[event] for event in self.events if event.split("->")[-1] =="0"]) == 1, "last plane criterion"          #only one last plane (this is not counted towards the number of a/c)
 
@@ -43,26 +44,30 @@ class Problem:
         The costs represent the time a runway is used for a certain event
         This time is dependent on the seperation based on the aircraft class and the approach speed of the aircraft. """
     costs = {}
-    sep=  [[4,5,6],[3,4,5],[3,3,4]]   #seperation vh, H , M * vh, H , M
-    v = [150, 140, 120]     # approachspeed kts (make dict!)
-    if len(v) != len(self.types):
-      print("types and approachspeeds dont match!!!")
+    classes = ['vheavy', 'heavy', 'medium']
+    sep=  [[4,6,7],[3,4,5],[3,3,3]]   #seperation vh, H , M * vh, H , M
+    path = 8        #approach path length in nm
+#    if len(v) != len(self.types):
+#      print("types and approachspeeds dont match!!!")
     for event in self.events:
       try:
-        i = self.types.index(event.split("->")[0])
-        j = self.types.index(event.split("->")[-1])
-        cost = max([int((8 + sep[i][j])/v[j] * 3600),60])
+        ## TODO ?
+        #This might need to move to a dict
+        lead = event.split("->")[0]
+        follower = event.split("->")[-1]
+      #  print("l " + lead)
+      #  print(self.planes[lead].wclass())
+        i = classes.index(self.planes[lead].wclass())
+        j = classes.index(self.planes[follower].wclass())
+        cost = max([int(((path + sep[i][j])/self.planes[follower].approachspeed - path / self.planes[lead].approachspeed) * 3600),(len(event.split("->"))-1)*65]) 
       except:
         cost = 0
       costs[event] = cost
-      print (event + "  " + str(cost))
-    print ("\n")
+      #print (event + "  " + str(cost))
+
+    #print ("\n")
     return costs
-    #LTL
-    #max([(n+s_ij)/vj, 120])
-    #LL
-    #max([(n+s_ij)/vj, 60])
-    #max([,])
+
 
 
   def genevents(self):
@@ -74,10 +79,10 @@ class Problem:
       events.append(typ+"->0")
       for ty in self.types:
         events.append(ty + "->" + typ)
-        for to in self.to_events:
-          events.append(ty + "->" + to + "->" + typ)
-          for to2 in self.to_events:
-            events.append(ty + "->" + to + "->" + to2 + "->" + typ)
+        #for to in self.to_events:
+        #  events.append(ty + "->" + to + "->" + typ)
+        #  for to2 in self.to_events:
+        #    events.append(ty + "->" + to + "->" + to2 + "->" + typ)
     #for event in events:
       #print (event)
     return events
