@@ -3,7 +3,8 @@ import re
 
 class airplane(object):
   def __init__(self, actype):
-    self.actype = actype              #string
+    self.actype = actype              # string
+    self.approachspeed = 140          # kts, default value, only used if aircraft type not found
     self.valid = True
     self.param()
 
@@ -25,6 +26,7 @@ class airplane(object):
     try:
       r = requests.get("http://www.skybrary.aero/index.php/"+self.actype)
       self.approachspeed, self.MTOW = re.findall(r'V.+?app.+?\s.+?(\d{3})[\w\W]+?MTOW[\w\W]+?(\d{5,6})',r.text)[0]
+      self.approachspeed, self.MTOW = int(self.approachspeed), int(self.MTOW)
       with open("data/types.txt", "a") as f:
         f.write(self.actype + "    " + self.approachspeed + "    " + self.MTOW + "\n")
     except:
@@ -51,7 +53,6 @@ class airplane(object):
       pass
     if not x:
       self.search()
-
 
 if __name__ == "__main__":
   a = airplane("A388")
