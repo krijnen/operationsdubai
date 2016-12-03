@@ -6,39 +6,31 @@ from airplane import *
 
 class Problem:
   def __init__(self, landings, planes, takeoffs, first = ""):
-    """ Function to initialize the class. This function is run as soon as the class is created. The variable self is the internal name of the object"""            
+    """ Function to initialize the class. This function is run as soon as the class is created. The variable self is the internal name of the object
+    This init function also runs all class functions"""
     self.landings = landings               # dict{aircraft type : number of landings}
     self.takeoffs = takeoffs               # dict{aircraft type : number of takeoffs}
     self.planes = planes                   # dict{aircraft type : airplane}
     self.result = {}                       # dict with the results of the solver
-    self.first = first                     # first plane of the batch
-    if self.first:
-      if self.first in landings:
-        self.landings[self.first] += 1
-      else:
-        self.landings[self.first] = 1
-        planes[self.first] = airplane.airplane(self.first)
-      print (landings)
+    self.first = self.firstplane(first)    # first plane of the batch
     self.last = ""                         # last plane of the schedule
     
     ###PROBLEM DEFINITION
     self.events = self.genevents()         # list of all possible events (see genevents())    
     self.problem = LpProblem("Runway Optimization", LpMinimize)        #Minimizing Problem
-    self.variables = LpVariable.dicts("Variables", self.events, cat='Integer', lowBound = 0)
+    self.variables = LpVariable.dicts("Var", self.events, cat='Integer', lowBound = 0)
 
     ###OBJECTIVE FUNCTION
     self.costs = self.gencosts()           # dict{event : cost} containing runway time for a certain event
     self.problem += lpSum([self.costs[i]*self.variables[i] for i in self.events]), "Total runway time used"
+    
     ###CONSTRAINTS
     self.genconstraints()
+    
     ###OUTPUT
     self.genoutput()
     #self.schedule = self.rearrangeoutput()
     #self.schedule = self.filteroutput()
-#    for flight in self.schedule:
-#      print(flight)
-
-
 
   def genconstraints(self):
     """Function to generate the constraints, a string is added to each one of them to describe the constraint textually"""
@@ -83,7 +75,7 @@ class Problem:
           print ("cost of " + lead + " " + follower + " not found")
           cost = 1000
         costs[event] = cost
-        f.write(event + "    " + str(cost) + "\n")            ####FORMAT
+        f.write('{:30}'.format(event) + str(cost) + "\n")            ####FORMAT
     return costs
 
   def genevents(self):
@@ -137,6 +129,8 @@ class Problem:
     return [(event.split("->")[1:]).count("T_"+to) * self.variables[event] for event in self.events]
 
   def rearrangeoutput(self):
+    """Function to rearrange the result into a schedule."""
+    ###TODO: explore option tree (at this points it takes the first option only, not always leading to the correct soln)
     result = self.result
     schedule = []
     last = "0"
@@ -166,6 +160,7 @@ class Problem:
     return schedule
 
   def filteroutput(self):
+    """Function that takes the rearranged output and filters it to a list of single events"""
     schedule = []
     for event in self.schedule:
       for i, flight in enumerate(self.getevent(event)[0]):
@@ -177,8 +172,8 @@ class Problem:
         f.write(s+"\n")
     return schedule
 
-
   def getevent(self, var):
+    """Takes a problem variable and returns the corresponding event string, as well as a list of discrete events."""
     v = var.split("__")
     v[0] = v[0].split("_")[-1]
     event = ""
@@ -187,8 +182,15 @@ class Problem:
     event = event[:-2]
     return v, event
 
-
-
+  def firstplane(self, first):
+    ###TODO takeoffs
+    if first:
+      if first in landings:
+        self.landings[first] += 1
+      else:
+        self.landings[first] = 1
+        planes[first] = airplane.airplane(first)
+    return first
 
 
 if __name__ == "__main__":
