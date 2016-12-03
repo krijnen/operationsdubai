@@ -2,7 +2,7 @@
 from pulp import *
 import numpy as np
 import re
-import airplane
+from airplane import *
 
 class Problem:
   def __init__(self, landings, planes, takeoffs, first = ""):
@@ -192,14 +192,14 @@ class Problem:
 
 
 if __name__ == "__main__":
-  # a simple testcase thats only run if this file is run
-  landings = {"vheavy" :2,
-          "heavy" : 3,
-          "medium": 3}
-  takeoffs = {"T_m" : 3,
-              "T_h" : 5}
-
-  print (takeoffs["T_m"])
-  to_events = ["T_m", "T_h"]
-
-  s = Problem(types, landings, takeoffs)
+  # a testcase thats only run if this file is run as main (eg. in terminal: python3 problem.py)
+  landings = {"B77W" :2,
+          "B752" : 3,
+          "A310": 3}
+  takeoffs =  {"B77W" :2,
+          "B752" : 3,
+          "A310": 3}
+  planes = {"B77W" : airplane("B77W"),
+          "B752" : airplane("B752"),
+          "A310": airplane("A310")}
+  s = Problem(landings, planes, takeoffs, "A310")

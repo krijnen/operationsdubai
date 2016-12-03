@@ -2,6 +2,8 @@ import requests
 import re
 
 class airplane(object):
+  """Object containing the approach speed, weightclass and MTOW of a certain aircraft type
+  It is initialized with an aircraft type only. The rest is found in a data file or online"""
   def __init__(self, actype):
     self.actype = actype              # string
     self.approachspeed = 140          # kts, default value, only used if aircraft type not found
@@ -9,7 +11,7 @@ class airplane(object):
     self.param()
 
   def wclass(self):
-    ### Weight classes based on faa classification
+    ### Returns weight classes based on faa classification
     try:
       if self.MTOW < 5670:
         return 'small'
@@ -23,18 +25,38 @@ class airplane(object):
       return 'medium'
 
   def search(self):
+    """Function that looks on the site skybrary.aero for the airplane type. If it's found the 
+    approachspeed and MTOW are extracted and saved to the types.txt file for speed on subsequent runs."""
     try:
       r = requests.get("http://www.skybrary.aero/index.php/"+self.actype)
-      self.approachspeed, self.MTOW = re.findall(r'V.+?app.+?\s.+?(\d{3})[\w\W]+?MTOW[\w\W]+?(\d{5,6})',r.text)[0]
-      self.approachspeed, self.MTOW = int(self.approachspeed), int(self.MTOW)
+    except:
+      pass
+    try:  
+      self.approachspeed = int(re.findall(r'V.+?app.+?\s.+?(\d{3})', r)[0])
+    except:
+      self.approachspeed = ""
+    try:  
+      self.MTOW = int(re.findall(r'MTOW[\w\W]+?(\d{4,6})',r.text)[0])
+    except:
+      self.MTOW = ""  
+    try:
+      self.wtc = re.findall(r'wtc.+(\w{4,8})\s', r)[0]
+    except:
+      pass
+    try:
       with open("data/types.txt", "a") as f:
         f.write(self.actype + "    " + self.approachspeed + "    " + self.MTOW + "\n")
     except:
       self.valid = False
+      
       with open("data/types.txt", "a") as f:
         f.write(self.actype + "\n")
+    ###TODO look up WTClass WTC
+    ###Seperate search
 
   def param(self):
+    """Function that runs through the types.txt file and checks for the aircraft type. If it isn't in the file
+    an internet search is tried."""    
     x = 0
     try:
       with open("data/types.txt", "r") as f:
