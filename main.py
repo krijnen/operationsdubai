@@ -13,25 +13,31 @@ class main:
   """def main():
   lees data + opdelen in blokjes        DONE
 
-  loop.....
+  loop....                              DONE
   koppelen -> gewichtsklasse etc.       DONE
   probleem opstellen -> solve           DONE
-  evaluate performance, last plane etc.
-  write
+  evaluate performance, last plane etc. DONE
+  write  
   .....loop
 """
   def __init__(self):
+    ### Read data
     self.data = self.read_data("data/DXB_Arrivals_6to6_01-12-16.txt")
     self.data += self.read_data("data/DXB_Departures_6to6_01-12-16.txt")
+    ### Cut into blocks of 15 minutes
     self.blocks = self.timify(self.data)
     #print(self.blocks["03:15"])
     self.movements = {}
     self.timesaved = {}
     #self.generateproblem(self.blocks["03:15"], "A388")
+    ### Create a problem from every block and evaluate its performance
     self.runblocks()
     self.evaluate_performance()
 
   def runblocks(self):
+    """Takes the blocks dictionary and runs through each block
+    Based on the data of the block, a problem is created and solved.
+    The last plane of the solution is recorded and used for the next problem"""
     t = []
     savedtime = []
     first = ""
@@ -40,8 +46,6 @@ class main:
       t.append(time)
       savedtime.append(int(15*60-p.value)/60)
       first = p.last
-      #print(time)
-    #print(savedtime)
     plt.bar(range(len(t)), savedtime, align='center')
     plt.xticks(range(len(t)), t, rotation='vertical')
     plt.show()
@@ -88,9 +92,6 @@ class main:
     p = pr.Problem(landings, planes, takeoffs, first)
     return p
 
-
-
-
   def evaluate_performance(self):
     """evaluate the performance compared to the given data"""
     x, y = [], []
@@ -125,6 +126,8 @@ class main:
     return data
 
   def extractflight(self, x):
+    """Extracts type of the aircraft, the type and the scheduled time of the 
+    flight from the list"""    
     flt = re.findall(r'\s([A-Z0-9]{3,6})\s', x)[0]
     typ = re.findall(r'[\w\)]{3,}\s+?([A-Z]\d+\w*)', x)[0]
     t = re.findall(r'(\d+):(\d\d)\s(PM|AM)', x)[0]
@@ -142,11 +145,13 @@ class main:
     
 
   def round(self, t, to = 15):
+    """Round a time string "HH:MM" to a certain number of minutes (rounded down) """
     mi = int(t.split(":")[-1])
-    minutes = [15,30,45,60]#list(range(0,60,to))
-    for x in minutes:
+    #minutes = [15,30,45,60]#list(range(0,60,to))
+    for x in range(0,61,to):
       if mi < x:
         return t.split(":")[0].zfill(2) + ":" + str(x-to).zfill(2)
+    
 
 
 if __name__ == "__main__":

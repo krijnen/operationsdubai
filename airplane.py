@@ -13,7 +13,9 @@ class airplane(object):
   def wclass(self):
     ### Returns weight classes based on faa classification
     try:
-      if self.MTOW < 5670:
+      if self.wtc:
+        return self.wtc
+      elif self.MTOW < 5670:
         return 'small'
       elif self.MTOW < 18600:
         return 'medium'        
@@ -29,26 +31,25 @@ class airplane(object):
     approachspeed and MTOW are extracted and saved to the types.txt file for speed on subsequent runs."""
     try:
       r = requests.get("http://www.skybrary.aero/index.php/"+self.actype)
-    except:
-      pass
-    try:  
-      self.approachspeed = int(re.findall(r'V.+?app.+?\s.+?(\d{3})', r)[0])
-    except:
-      self.approachspeed = ""
-    try:  
-      self.MTOW = int(re.findall(r'MTOW[\w\W]+?(\d{4,6})',r.text)[0])
-    except:
-      self.MTOW = ""  
-    try:
-      self.wtc = re.findall(r'wtc.+(\w{4,8})\s', r)[0]
+      try:  
+        self.approachspeed = re.findall(r'V.+?app.+\s.+?(\d{3})', r.text)[0]
+      except:
+        self.approachspeed = "140"
+      try:  
+       self.MTOW = re.findall(r'MTOW[\w\W]+?(\d{4,6})',r.text)[0]
+      except:
+        self.MTOW = ""
+      try:
+        self.wtc = re.findall(r'WTC.+\s.+?([A-Z]{1,2})', r.text)[0]
+      except:
+        self.wtc = self.wclass()
     except:
       pass
     try:
       with open("data/types.txt", "a") as f:
-        f.write(self.actype + "    " + self.approachspeed + "    " + self.MTOW + "\n")
+        f.write(self.actype + "    " + self.approachspeed + "    " + self.MTOW + "    " + self.wtc + "\n")
     except:
-      self.valid = False
-      
+      self.valid = False      
       with open("data/types.txt", "a") as f:
         f.write(self.actype + "\n")
     ###TODO look up WTClass WTC
@@ -77,5 +78,5 @@ class airplane(object):
       self.search()
 
 if __name__ == "__main__":
-  a = airplane("A388")
+  a = airplane("B77W")
   print(a.approachspeed)
