@@ -185,11 +185,11 @@ class Problem:
   def firstplane(self, first):
     ###TODO takeoffs
     if first:
-      if first in landings:
+      if first in self.landings:
         self.landings[first] += 1
       else:
         self.landings[first] = 1
-        planes[first] = airplane.airplane(first)
+        self.planes[first] = airplane(first)
     return first
 
 
