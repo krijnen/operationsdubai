@@ -4,9 +4,8 @@ import numpy as np
 import problem as pr
 import re
 import airplane as ac
-#from datetime import datetime
-#FMT = '%H:%M'
 import matplotlib.pyplot as plt
+BLOCK = 4
 
 
 class main:
@@ -32,85 +31,11 @@ class main:
 
     ### Create a problem from every block and evaluate its performance
     self.runblocks()
-    self.evaluate_performance()
+    #self.show_movements()
 
-  def runblocks(self):
-    """Takes the blocks dictionary and runs through each block
-    Based on the data of the block, a problem is created and solved.
-    The last plane of the solution is recorded and used for the next problem"""
-    t = []
-    savedtime = []
-    first = ""
-    for time, flights in sorted(self.blocks.items()):
-      p = self.generateproblem(flights, first)
-      t.append(time)
-      savedtime.append(int(15*60-p.value)/60)      
-      first = p.last
-    ### TODO WRITE TO RESULTS
-    print(max(savedtime))
-    print(min(savedtime))
-    print(sum(savedtime))
-    print(sum(savedtime)/len(savedtime))
-    plt.bar(range(len(t)), savedtime, align='center')
-    savedtime = [int(sum(savedtime[i:i+3])/4) for i in range(0, len(savedtime), 4)]
-    t = [x for x in t if t.index(x) % 4 == 0]
-    plt.bar(range(0,len(t)*4, 4), savedtime, align='center', color = "red")
-    plt.xticks(range(0,len(t)*4, 4), t, rotation='vertical')
-    plt.show()
-
-  def timify(self, data):
-    """Break up the flights to blocks of 15 minutes"""
-    blocks = {}
-    for d in data:
-      if self.round(d[1]) in blocks:
-        blocks[self.round(d[1])].append(d)
-      else:
-        blocks[self.round(d[1])] = [d]
-    return blocks
-
-  def classify(self, block):
-    """Sort the aircraft type to certain events. The function returns two dicts, containing the types and corresponding number of movements."""
-    landings = {}
-    takeoffs = {}
-    for flight in block:
-      typ = flight[2]
-      if flight[0] == "Landed":
-        try:
-          landings[typ] += 1
-        except:
-          landings[typ] = 1
-      if flight[0] == "Departed":
-        try:
-          takeoffs[typ] += 1
-        except:
-          takeoffs[typ] = 1
-    return landings, takeoffs
-
-  def generateproblem(self, block, first = ""):
-    """Generate a problem using the problem class described in problem.py. """
-    landings, takeoffs = self.classify(block)
-    planes = {}
-    for typ in landings:
-      a = ac.airplane(typ)
-      planes[typ] = ac.airplane(typ)
-    for typ in takeoffs:
-      a = ac.airplane(typ)
-      planes[typ] = ac.airplane(typ)
-    p = pr.Problem(landings, planes, takeoffs, first)
-    return p
-
-  def evaluate_performance(self):
-    """evaluate the performance compared to the given data"""
-    x, y = [], []
-    for key, value in sorted(self.blocks.items()):
-      x.append(key)
-      y.append(len(value))
-    print (len(x))
-    plt.bar(range(len(x)), y, align='center')
-    x = [i for i in x if x.index(i) % 4 == 0]
-    plt.xticks(range(0,len(x)*4,4), x, rotation='vertical')
-    plt.show()
-
+    ###Verification case
+    #self.generateproblem(self.blocks["02:30"])
+  
   def read_data(self, file):
     """Read data into list of strings"""
     x = ""
@@ -133,6 +58,102 @@ class main:
                 x = ""
     return data
 
+  def classify(self, block):
+      """Sort the aircraft type to certain events. The function returns two dicts, containing the types and corresponding number of movements."""
+      landings = {}
+      takeoffs = {}
+      for flight in block:
+        typ = flight[2]
+        if flight[0] == "Landed":
+          try:
+            landings[typ] += 1
+          except:
+            landings[typ] = 1
+        if flight[0] == "Departed":
+          try:
+            takeoffs[typ] += 1
+          except:
+            takeoffs[typ] = 1
+      return landings, takeoffs
+
+  def generateproblem(self, block, first = ""):
+    """Generate a problem using the problem class described in problem.py. """
+    landings, takeoffs = self.classify(block)
+    planes = {}
+    for typ in landings:
+      a = ac.airplane(typ)
+      planes[typ] = ac.airplane(typ)
+    for typ in takeoffs:
+      a = ac.airplane(typ)
+      planes[typ] = ac.airplane(typ)
+    p = pr.Problem(landings, planes, takeoffs, first)
+    return p
+
+  def timify(self, data):
+    """Break up the flights to blocks of 15 minutes"""
+    blocks = {}
+    for d in data:
+      if self.round(d[1]) in blocks:
+        blocks[self.round(d[1])].append(d)
+      else:
+        blocks[self.round(d[1])] = [d]
+    return blocks
+
+
+  def runblocks(self):
+    """Takes the blocks dictionary and runs through each block
+    Based on the data of the block, a problem is created and solved.
+    The last plane of the solution is recorded and used for the next problem"""
+    t = []
+    savedtime = []
+    first = ""
+    st_peak = 0
+    for time, flights in sorted(self.blocks.items()):
+      p = self.generateproblem(flights, first)
+      t.append(time)
+      savedtime.append(int((60./BLOCK*60-p.value)/60.))
+      first = p.last
+      if int(time.split(":")[0]) < 10 or int(time.split(":")[0]) > 19:
+        st_peak += savedtime[-1]
+
+    ### TODO WRITE TO RESULTS?
+    print("Max saved time of a block: " + str(max(savedtime)))
+    print("Min saved time of a block: " + str(min(savedtime)))
+    print("Total time saved: " + str(sum(savedtime)))
+    print("Time saved during peak hours: " + str(st_peak))
+    print("Average time saved per block: " + str(sum(savedtime)/len(savedtime)))
+    #plt.bar(range(len(t)), savedtime, align='center')
+    savedtime = [(sum(savedtime[i:i+(BLOCK-1)])) for i in range(0, len(savedtime), BLOCK)]    
+    t = [x for x in t if t.index(x) % BLOCK == 0]
+    fig = plt.figure()    
+    plt.bar(range(len(t)), savedtime, align='center', color = "red")
+    plt.xticks(range(len(t)), t, rotation='vertical')
+    fig.suptitle('Saved time per hour')
+    plt.xlabel('time (h)')
+    plt.ylabel('Time (minutes)')
+    fig.savefig('../figures/savedtime.jpg')
+
+    #plt.show()
+  
+
+  def show_movements(self):
+    """evaluate the performance compared to the given data"""
+    x, y = [], []
+    for key, value in sorted(self.blocks.items()):
+      x.append(key)
+      y.append(len(value))
+    y = [(sum(y[i:i+3])) for i in range(0, len(y), 4)]
+    x = [i for i in x if x.index(i) % 4 == 0]
+    fig = plt.figure()
+    plt.bar(range(len(x)), y, align='center')
+    plt.xticks(range(len(x)), x, rotation='vertical')
+    fig.suptitle('Aircraft movements per hour')
+    plt.xlabel('Time (h)')
+    plt.ylabel('Movements')
+    fig.savefig('../figures/movements.jpg')
+
+
+
   def extractflight(self, x):
     """Extracts type of the aircraft, the type and the scheduled time of the 
     flight from the list"""    
@@ -151,10 +172,9 @@ class main:
     pass
 
 
-  def round(self, t, to = 15):
+  def round(self, t, to = int(60/BLOCK)):
     """Round a time string "HH:MM" to a certain number of minutes (rounded down) """
     mi = int(t.split(":")[-1])
-    #minutes = [15,30,45,60]#list(range(0,60,to))
     for x in range(0,61,to):
       if mi < x:
         return t.split(":")[0].zfill(2) + ":" + str(x-to).zfill(2)

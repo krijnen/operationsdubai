@@ -44,11 +44,24 @@ class Problem:
       self.problem += lpSum(self.end_begin(-1, typ)) - lpSum(self.end_begin(0, typ)) == 0, "head-tails constraint of " + typ    
     for to in self.takeoffs:
       self.problem += lpSum(self.middle(to)) == self.takeoffs[to], "Number of take-offs of " + to
+      # For every takeoff aircraft type there should be a switch to that type (eg. medium -> heavy)
+      self.problem += lpSum([self.variables[event] for event in self.events if event.split("->")[-1] == "T_"+to and event.split("->")[0] != "T_" + to ])>= 1, "switch to " + "T_" + to 
+      # For every switch to a type there should be a switch away from that type
+      self.problem += lpSum(self.end_begin(-1, "T_"+to)) - lpSum(self.end_begin(0, "T_"+to)) == 0, "head-tails constraint of " + "T_" + to
+
     self.problem += lpSum([self.variables[event] for event in self.events if event.split("->")[0] =="0"]) == 1, "starting plane criterion"       #only one starting plane
     self.problem += lpSum([self.variables[event] for event in self.events if event.split("->")[-1] =="0"]) == 1, "last plane criterion"          #only one last plane (this is not counted towards the number of a/c)
+  
+  def end_begin(self, x, typ):
+    """ List comprehension that is quite often used returning a list with only the events beginning or ending with a certain typ from the entire list"""
+    return [self.variables[event] for event in self.events if event.split("->")[x] == typ]
+
+  def middle(self, to):
+    """ List comprehension filtering the takeoff events from the events"""
+    return [(event.split("->")[1:]).count("T_"+to) * self.variables[event] for event in self.events]
 
 
- 
+
   def gencosts(self):
     """ Function to generate a dictionary of costs, which are used in the cost function.
         The costs represent the time a runway is used for a certain event
@@ -56,26 +69,44 @@ class Problem:
     with open("data/cost.txt", "w") as f:
       f.write("event" + "            " + "cost" + "\n")
       costs = {}
-      classes = ['vheavy', 'heavy', 'medium']
+      classes = ['VH', 'H', 'M']
       sep=  [[4,6,7],[3,4,5],[3,3,3]]                       #seperation vh, H , M * vh, H , M
+      o_l = {"M":55,"H":60,"VH":65}
+      o_t = [[120, 180, 180],[90, 90, 120],[60, 60, 60]]
       path = 8                                              #approach path length in nm
       for event in self.events:
-        try:
-          lead = event.split("->")[0]
-          follower = event.split("->")[-1]
-          if "T" in follower:
-            cost = 65
-          elif (lead == '0' or follower == '0'):
-            cost = 0
-          else:
-            i = classes.index(self.planes[lead].wclass())
-            j = classes.index(self.planes[follower].wclass())
-            cost = max([int(((path + sep[i][j])/self.planes[follower].approachspeed - path / self.planes[lead].approachspeed) * 3600),(len(event.split("->"))-1)*65]) 
-        except:
-          print ("cost of " + lead + " " + follower + " not found")
-          cost = 1000
+        #try:
+        lead = event.split("->")[0]
+        follower = event.split("->")[-1]
+        if "T" in follower and not "T" in lead:
+          cost = o_l[self.planes[lead].wclass()]
+        if "T" in lead and "0" in follower:
+          cost = 60
+        elif (lead == '0' or follower == '0'):
+          cost = 0
+        elif "T" in follower and "T" in lead:
+          i = classes.index(self.planes[lead.split("_")[-1]].wclass())
+          j = classes.index(self.planes[follower.split("_")[-1]].wclass())
+          cost = o_t[i][j]
+        elif "T" not in follower and len(event.split("->")) ==2:
+          i = classes.index(self.planes[lead].wclass())
+          j = classes.index(self.planes[follower].wclass())
+          cost = max([int(((path + sep[i][j])/self.planes[follower].approachspeed - path / self.planes[lead].approachspeed) * 3600)
+            , o_l[self.planes[lead].wclass()]])
+        elif len(event.split("->"))==3:
+          i = classes.index(self.planes[lead].wclass())
+          j = classes.index(self.planes[follower].wclass())
+          cost = max([int(((path + sep[i][j])/self.planes[follower].approachspeed - path / self.planes[lead].approachspeed) * 3600)
+            , sum([ o_l[self.planes[lead].wclass()], 60]) ])
+        elif len(event.split("->")) == 4:
+          i = classes.index(self.planes[lead].wclass())
+          j = classes.index(self.planes[follower].wclass())
+          k = classes.index(self.planes[event.split("->")[1].split("_")[-1]].wclass())
+          l = classes.index(self.planes[event.split("->")[2].split("_")[-1]].wclass())
+          cost = max([int(((path + sep[i][j])/self.planes[follower].approachspeed - path / self.planes[lead].approachspeed) * 3600)
+            , sum([ o_l[self.planes[lead].wclass()], o_t[k][l], 60 ])  ])
         costs[event] = cost
-        f.write('{:30}'.format(event) + str(cost) + "\n")            ####FORMAT
+        f.write('{:30}'.format(event) + str(cost) + "\n")
     return costs
 
   def genevents(self):
@@ -119,14 +150,6 @@ class Problem:
       print(value(self.problem.objective))         
     self.value = value(self.problem.objective)
     print ("done")
-
-  def end_begin(self, x, typ):
-    """ List comprehension that is quite often used returning a list with only the events beginning or ending with a certain typ from the entire list"""
-    return [self.variables[event] for event in self.events if event.split("->")[x] == typ]
-
-  def middle(self, to):
-    """ List comprehension filtering the takeoff events from the events"""
-    return [(event.split("->")[1:]).count("T_"+to) * self.variables[event] for event in self.events]
 
   def rearrangeoutput(self):
     """Function to rearrange the result into a schedule."""
@@ -184,7 +207,7 @@ class Problem:
 
   def firstplane(self, first):
     ###TODO takeoffs
-    if first:
+    if (first and not "T_" in first):
       if first in self.landings:
         self.landings[first] += 1
       else:
@@ -195,12 +218,9 @@ class Problem:
 
 if __name__ == "__main__":
   # a testcase thats only run if this file is run as main (eg. in terminal: python3 problem.py)
-  landings = {"B77W" :2,
-          "B752" : 3,
-          "A310": 3}
-  takeoffs =  {"B77W" :2,
-          "B752" : 3,
-          "A310": 3}
+  landings = {"B77W" :2,         
+          "A310": 1}
+  takeoffs =  {"A310":1}
   planes = {"B77W" : airplane("B77W"),
           "B752" : airplane("B752"),
           "A310": airplane("A310")}
