@@ -4,32 +4,32 @@ import numpy as np
 import problem as pr
 import re
 import airplane as ac
-from datetime import datetime
-FMT = '%H:%M'
+#from datetime import datetime
+#FMT = '%H:%M'
 import matplotlib.pyplot as plt
 
 
 class main:
-  """def main():
-  lees data + opdelen in blokjes        DONE
-
-  loop....                              DONE
-  koppelen -> gewichtsklasse etc.       DONE
-  probleem opstellen -> solve           DONE
-  evaluate performance, last plane etc. DONE
-  write  
-  .....loop
+  """
+  Main class of the Dubai runway problem algorithm (though it could be used for any runway). It takes flight data from a text file from 24flightradar.
+  The flights are processed per block of fifteen minutes. Each block is analyzed as a seperate linear problem.
+  The blocks are connected through an extra constraint regarding the last plane of 
+  the first block and first plane of the following block. The linear problems are then solved and the results are analyzed.
+  For more information on the problem formulation, check the file problem.py and data/problem.lp for the complete formulation 
+  of the problem. Lots of underlying variables and data are written to te
+  More information on the assumptions are formulated in a report.
+  @authors: Hielke Krijnen, Bram Doedijns, Regis van Som
 """
   def __init__(self):
     ### Read data
     self.data = self.read_data("data/DXB_Arrivals_6to6_01-12-16.txt")
     self.data += self.read_data("data/DXB_Departures_6to6_01-12-16.txt")
+
     ### Cut into blocks of 15 minutes
     self.blocks = self.timify(self.data)
-    #print(self.blocks["03:15"])
     self.movements = {}
     self.timesaved = {}
-    #self.generateproblem(self.blocks["03:15"], "A388")
+
     ### Create a problem from every block and evaluate its performance
     self.runblocks()
     self.evaluate_performance()
@@ -44,10 +44,18 @@ class main:
     for time, flights in sorted(self.blocks.items()):
       p = self.generateproblem(flights, first)
       t.append(time)
-      savedtime.append(int(15*60-p.value)/60)
+      savedtime.append(int(15*60-p.value)/60)      
       first = p.last
+    ### TODO WRITE TO RESULTS
+    print(max(savedtime))
+    print(min(savedtime))
+    print(sum(savedtime))
+    print(sum(savedtime)/len(savedtime))
     plt.bar(range(len(t)), savedtime, align='center')
-    plt.xticks(range(len(t)), t, rotation='vertical')
+    savedtime = [int(sum(savedtime[i:i+3])/4) for i in range(0, len(savedtime), 4)]
+    t = [x for x in t if t.index(x) % 4 == 0]
+    plt.bar(range(0,len(t)*4, 4), savedtime, align='center', color = "red")
+    plt.xticks(range(0,len(t)*4, 4), t, rotation='vertical')
     plt.show()
 
   def timify(self, data):
@@ -61,8 +69,7 @@ class main:
     return blocks
 
   def classify(self, block):
-    """Classify the aircraft type to certain weight class etc. The function returns two dicts, one containing the types and corresponding number of planes, 
-    the other contains the parameters of the type"""
+    """Sort the aircraft type to certain events. The function returns two dicts, containing the types and corresponding number of movements."""
     landings = {}
     takeoffs = {}
     for flight in block:
@@ -100,11 +107,12 @@ class main:
       y.append(len(value))
     print (len(x))
     plt.bar(range(len(x)), y, align='center')
-    plt.xticks(range(len(x)), x, rotation='vertical')
+    x = [i for i in x if x.index(i) % 4 == 0]
+    plt.xticks(range(0,len(x)*4,4), x, rotation='vertical')
     plt.show()
 
   def read_data(self, file):
-    """Read and chop data into list of strings containing 15min airport time"""
+    """Read data into list of strings"""
     x = ""
     flights = []
     data = []
@@ -142,7 +150,6 @@ class main:
     """Write the results of the problem to new txt file"""
     pass
 
-    
 
   def round(self, t, to = 15):
     """Round a time string "HH:MM" to a certain number of minutes (rounded down) """
