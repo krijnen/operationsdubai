@@ -31,7 +31,7 @@ class main:
 
     ### Create a problem from every block and evaluate its performance
     self.runblocks()
-    #self.show_movements()
+    self.show_movements()
 
     ###Verification case
     #self.generateproblem(self.blocks["02:30"])
@@ -116,13 +116,11 @@ class main:
       if int(time.split(":")[0]) < 10 or int(time.split(":")[0]) > 19:
         st_peak += savedtime[-1]
 
-    ### TODO WRITE TO RESULTS?
     print("Max saved time of a block: " + str(max(savedtime)))
     print("Min saved time of a block: " + str(min(savedtime)))
     print("Total time saved: " + str(sum(savedtime)))
     print("Time saved during peak hours: " + str(st_peak))
     print("Average time saved per block: " + str(sum(savedtime)/len(savedtime)))
-    #plt.bar(range(len(t)), savedtime, align='center')
     savedtime = [(sum(savedtime[i:i+(BLOCK-1)])) for i in range(0, len(savedtime), BLOCK)]    
     t = [x for x in t if t.index(x) % BLOCK == 0]
     fig = plt.figure()    
@@ -131,9 +129,8 @@ class main:
     fig.suptitle('Saved time per hour')
     plt.xlabel('time (h)')
     plt.ylabel('Time (minutes)')
-    fig.savefig('../figures/savedtime.jpg')
-
-    #plt.show()
+    #fig.savefig('../figures/savedtime.jpg')
+    plt.show()
   
 
   def show_movements(self):
@@ -150,8 +147,8 @@ class main:
     fig.suptitle('Aircraft movements per hour')
     plt.xlabel('Time (h)')
     plt.ylabel('Movements')
-    fig.savefig('../figures/movements.jpg')
-
+    #fig.savefig('../figures/movements.jpg')
+    plt.show()
 
 
   def extractflight(self, x):
@@ -167,11 +164,6 @@ class main:
     return t, flt, typ
 
 
-  def write_results(self, block):
-    """Write the results of the problem to new txt file"""
-    pass
-
-
   def round(self, t, to = int(60/BLOCK)):
     """Round a time string "HH:MM" to a certain number of minutes (rounded down) """
     mi = int(t.split(":")[-1])
@@ -179,7 +171,5 @@ class main:
       if mi < x:
         return t.split(":")[0].zfill(2) + ":" + str(x-to).zfill(2)
     
-
-
 if __name__ == "__main__":
   m = main()

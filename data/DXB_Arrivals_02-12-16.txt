@@ -1,0 +1,2356 @@
+12:05 AM 	FZ844 	
+Riyadh (RUH)
+	FlyDubai 	B738 (A6-FER) 	
+	Landed 12:14 AM
+12:05 AM 	EK184 	
+Brussels (BRU)
+	Emirates 	B77W (A6-EPH) 	
+	Landed 11:43 PM
+12:05 AM 	EK90 	
+Geneva (GVA)
+	Emirates 	B77L (A6-EWC) 	
+	Landed 11:41 PM
+12:05 AM 	CZ383 	
+Guangzhou (CAN)
+	China Southern Airlines 	A333 (B-5939) 	
+	Landed 11:36 PM
+12:15 AM 	EK148 	
+Amsterdam (AMS)
+	Emirates 	A388 (A6-EOJ) 	
+	Landed 11:46 PM
+12:15 AM 	EK136 	
+Venice (VCE)
+	Emirates 	B77W (A6-EGY) 	
+	Landed 12:00 AM
+12:15 AM 	EK74 	
+Paris (CDG)
+	Emirates 	A388 (A6-EDK) 	
+	Landed 12:09 AM
+12:15 AM 	EK56 	
+Dusseldorf (DUS)
+	Emirates (United for Wildlife Livery) 	A388 (A6-EDG) 	
+	Landed 11:59 PM
+12:15 AM 	EK36 	
+Newcastle (NCL)
+	Emirates 	B77W (A6-ENB) 	
+	Landed 11:52 PM
+12:25 AM 	EK18 	
+Manchester (MAN)
+	Emirates (United for Wildlife Livery) 	A388 (A6-EEI) 	
+	Landed 12:02 AM
+12:25 AM 	EK140 	
+Prague (PRG)
+	Emirates 	A388 (A6-EDL) 	
+	Landed 11:44 PM
+12:25 AM 	EK162 	
+Dublin (DUB)
+	Emirates 	B77W (A6-ENX) 	
+	Landed 12:07 AM
+12:25 AM 	EK818 	
+Riyadh (RUH)
+	Emirates 	B773 (A6-EMU) 	
+	Landed 11:55 PM
+12:25 AM 	FZ252 	
+Mashhad (MHD)
+	FlyDubai 	B738 (A6-FEP) 	
+	Landed 1:05 AM
+12:30 AM 	EK804 	
+Jeddah (JED)
+	Emirates 	B77W (A6-EBY) 	
+	Landed 12:06 AM
+12:30 AM 	EK28 	
+Glasgow (GLA)
+	Emirates 	B77W (A6-ENP) 	
+	Landed 12:18 AM
+12:35 AM 	EK40 	
+Birmingham (BHX)
+	Emirates 	A388 (A6-EOP) 	
+	Landed 12:40 AM
+12:35 AM 	EK142 	
+Madrid (MAD)
+	Emirates 	A388 (A6-EEW) 	
+	Landed 12:23 AM
+12:35 AM 	EK186 	
+Barcelona (BCN)
+	Emirates 	A388 (A6-EEX) 	
+	Landed 12:23 AM
+12:35 AM 	EK924 	
+Cairo (CAI)
+	Emirates 	B77W (A6-EPS) 	
+	Landed 12:17 AM
+12:40 AM 	FZ20 	
+Doha (DOH)
+	FlyDubai 	B738 (A6-FDP) 	
+	Landed 12:31 AM
+12:40 AM 	QF1 	
+Sydney (SYD)
+	Qantas 	A388 (VH-OQH) 	
+	Landed 12:27 AM
+12:40 AM 	EK758 	
+Algiers (ALG)
+	Emirates 	B77W (A6-EPM) 	
+	Landed 12:18 AM
+12:40 AM 	EK16 	
+London (LGW)
+	Emirates 	A388 (A6-EDW) 	
+	Landed 12:12 AM
+12:40 AM 	EK2 	
+London (LHR)
+	Emirates 	A388 (A6-EEB) 	
+	Landed 12:21 AM
+12:45 AM 	EK547 	
+Chennai (MAA)
+	Emirates 	B77W (A6-ENV) 	
+	Landed 12:32 AM
+12:50 AM 	EK373 	
+Bangkok (BKK)
+	Emirates 	A388 (A6-EEC) 	
+	Landed 12:12 AM
+12:50 AM 	DY4601 	
+Stockholm (ARN)
+	Norwegian (Jens Glad Balchen Livery) 	B738 (LN-NGC) 	
+	Landed 12:53 AM
+12:55 AM 	EK60 	
+Hamburg (HAM)
+	Emirates 	B77W (A6-EBF) 	
+	Landed 8:23 AM
+12:55 AM 	EK734 	
+Khartoum (KRT)
+	Emirates 	B77W (A6-EPO) 	
+	Landed 12:46 AM
+12:55 AM 	SG13 	
+Mumbai (BOM)
+	SpiceJet 	B738 (VT-SZM) 	
+	Landed 12:44 AM
+1:00 AM 	NL221 	
+Islamabad (ISB)
+	Shaheen Air 	A320 (AP-BMD) 	
+	Landed 12:43 AM
+1:00 AM 	EK355 	
+Singapore (SIN)
+	Emirates 	A388 (A6-EDH) 	
+	Landed 12:38 AM
+1:00 AM 	KQ310 	
+Nairobi (NBO)
+	Kenya Airways 	B788 (5Y-KZA) 	
+	Landed 12:58 AM
+1:00 AM 	TK760 	
+Istanbul (IST)
+	Turkish Airlines 	B77W (TC-JJR) 	
+	Landed 12:37 AM
+1:05 AM 	EK649 	
+Colombo (CMB)
+	Emirates 	B77W (A6-ECR) 	
+	Landed 12:51 AM
+1:10 AM 	EK338 	
+Angeles City (CRK)
+	Emirates 	B77W (A6-EBZ) 	
+	Landed 12:49 AM
+1:10 AM 	EK773 	
+Cape Town (CPT)
+	Emirates 	B77W (A6-EGJ) 	
+	Landed 12:29 AM
+1:15 AM 	FZ586 	
+Dhaka (DAC)
+	Flydubai 	B738 (A6-FGE) 	
+	Landed 3:13 AM
+1:15 AM 	EK954 	
+Beirut (BEY)
+	Emirates (Arsenal F.C. Livery) 	B77L (A6-EWJ) 	
+	Landed 12:35 AM
+1:15 AM 	EK834 	
+Bahrain (BAH)
+	Emirates 	B77W (A6-ECP) 	
+	Landed 1:15 AM
+1:15 AM 	EK192 	
+Lisbon (LIS)
+	Emirates 	B77W (A6-EPL) 	
+	Landed 12:56 AM
+1:20 AM 	IX343 	
+Kozhikode (CCJ)
+	Air India Express 	B738 (VT-GHB) 	
+	Landed 12:54 AM
+1:20 AM 	FZ342 	
+Quetta (UET)
+	FlyDubai 	B738 (A6-FDC) 	
+	Landed 12:34 AM
+1:20 AM 	EK122 	
+Istanbul (IST)
+	Emirates 	B77W (A6-EPI) 	
+	Landed 1:01 AM
+1:25 AM 	EK108 	
+Larnaca (LCA)
+	Emirates 	B77W (A6-ENR) 	
+	Landed 12:48 AM
+1:25 AM 	SU524 	
+Moscow (SVO)
+	Aeroflot 	B738 (VQ-BWF) 	
+	Landed 1:26 AM
+1:25 AM 	LX243 	
+Muscat (MCT)
+	Swiss 	A333 (HB-JHI) 	
+	Landed 1:59 AM
+1:30 AM 	EK752 	
+Casablanca (CMN)
+	Emirates 	B77W (A6-EGU) 	
+	Landed 1:00 AM
+1:30 AM 	EK822 	
+Dammam (DMM)
+	Emirates 	B77W (A6-EGV) 	
+	Landed 1:13 AM
+1:30 AM 	BI97 	
+Brunei (BWN)
+	Royal Brunei Airlines 	B788 (V8-DLC) 	
+	Landed 1:09 AM
+1:30 AM 	EK218 	
+Los Angeles (LAX)
+	Emirates 	B77L (A6-EWE) 	
+	Landed 1:12 AM
+1:40 AM 	RJ612 	
+Amman (AMM)
+	Royal Jordanian 	A320 (JY-AYU) 	
+	Landed 1:48 AM
+1:45 AM 	EK846 	
+Doha (DOH)
+	Emirates 	B77W (A6-EPF) 	
+	Landed 1:26 AM
+1:45 AM 	EK860 	
+Kuwait City (KWI)
+	Emirates 	B773 (A6-EMV) 	
+	Landed 2:46 AM
+1:45 AM 	9W532 	
+Mangalore (IXE)
+	Jet Airways 	B738 (VT-JGP) 	
+	Landed 1:29 AM
+2:00 AM 	NL738 	
+Karachi (KHI)
+	Shaheen Air 	A320 (AP-BMC) 	
+	Landed 1:37 AM
+2:00 AM 	FZ330 	
+Karachi (KHI)
+	FlyDubai 	B738 (A6-FDI) 	
+	Landed 2:51 AM
+2:00 AM 	SG17 	
+Cochin (COK)
+	SpiceJet 	B738 (VT-SGJ) 	
+	Landed 2:03 AM
+2:00 AM 	BG45 	
+Chittagong (CGP)
+	Biman Bangladesh Airlines 	738 	
+	Unknown
+2:05 AM 	EK653 	
+Male (MLE)
+	Emirates 	B77W (A6-EGQ) 	
+	Landed 1:51 AM
+2:10 AM 	CZ3041 	
+Wuhan (WUH)
+	China Southern Airlines 	A333 (B-6086) 	
+	Landed 1:33 AM
+2:10 AM 	QR1020 	
+Doha (DOH)
+	Qatar Airways 	A320 (A7-AHQ) 	
+	Landed 1:57 AM
+2:20 AM 	FZ812 	
+Abha (AHB)
+	FlyDubai 	B738 (A6-FEL) 	
+	Landed 2:10 AM
+2:30 AM 	J215 	
+Baku (GYD)
+	Azerbaijan Airlines 	B752 (4K-AZ11) 	
+	Landed 2:09 AM
+2:35 AM 	PS373 	
+Kiev (KBP)
+	Ukraine International Airlines 	B738 (UR-PSO) 	
+	Landed 2:49 AM
+2:40 AM 	SG59 	
+Mangalore (IXE)
+	Corendon Airlines 	B738 (TC-TJT) 	
+	Landed 2:06 AM
+2:50 AM 	D8772 	
+Helsinki (HEL)
+	Norwegian (Gidsken Jakobsen livery) 	B738 (EI-FJE) 	
+	Landed 2:55 AM
+2:55 AM 	PK233 	
+Islamabad (ISB)
+	Pakistan International Airlines 	A320 (AP-BLS) 	
+	Landed 2:26 AM
+3:00 AM 	EK30 	
+London (LHR)
+	Emirates 	A388 (A6-EDF) 	
+	Landed 3:01 AM
+3:00 AM 	ET600 	
+Addis Ababa (ADD)
+	Ethiopian Airlines 	B77L (ET-ANR) 	
+	Landed 2:41 AM
+3:00 AM 	ET602 	
+Addis Ababa (ADD)
+	Ethiopian Airlines 	788 	
+	Unknown
+3:00 AM 	RA229 	
+Kathmandu (KTM)
+	Nepal Airlines 	A320 (9N-AKX) 	
+	Landed 2:36 AM
+3:00 AM 	SV598 	
+Jeddah (JED)
+	Saudia 	A320 (HZ-AS23) 	
+	Landed 2:44 AM
+3:10 AM 	QR1002 	
+Doha (DOH)
+	Qatar Airways 	A320 (A7-AHE) 	
+	Landed 3:04 AM
+3:10 AM 	WY601 	
+Muscat (MCT)
+	Oman Air 	B737 (A4O-BO) 	
+	Landed 2:59 AM
+3:10 AM 	FZ7066 	
+Jeddah (JED)
+	Flydubai 	B738 (A6-FGA) 	
+	Landed 3:10 AM
+3:10 AM 	FZ144 	
+Amman (AMM)
+	FlyDubai 	B738 (A6-FEN) 	
+	Landed 4:37 AM
+3:35 AM 	MS910 	
+Cairo (CAI)
+	Egyptair 	A333 (SU-GDS) 	
+	Landed 3:36 AM
+3:35 AM 	FZ72 	
+Kuwait City (KWI)
+	FlyDubai 	B738 (A6-FDL) 	
+	Landed 3:20 AM
+3:45 AM 	FZ878 	
+Taif (TIF)
+	FlyDubai 	73H 	
+	Unknown
+3:45 AM 	EK978 	
+Tehran (IKA)
+	Emirates 	B77W (A6-ENO) 	
+	Landed 3:06 AM
+3:50 AM 	TK758 	
+Istanbul (SAW)
+	Turkish Airlines 	B738 (TC-JVV) 	
+	Landed 3:22 AM
+3:55 AM 	SG53 	
+Kozhikode (CCJ)
+	SpiceJet 	B738 (VT-SGX) 	
+	Landed 5:21 AM
+3:55 AM 	9W580 	
+Mumbai (BOM)
+	Jet Airways 	B738 (VT-JBK) 	
+	Landed 3:17 AM
+4:01 AM 	IX611 	
+Tiruchirapalli (TRZ)
+	Air India Express 	B738 (VT-AXR) 	
+	Landed 3:33 AM
+4:01 AM 	BI98 	
+London (LHR)
+	Royal Brunei Airlines 	B788 (V8-DLD) 	
+	Landed 3:59 AM
+4:05 AM 	PC660 	
+Istanbul (SAW)
+	Pegasus Airlines 	B738 (TC-CPG) 	
+	Landed 3:57 AM
+4:05 AM 	PR658 	
+Manila (MNL)
+	Philippine Airlines 	A333 (RP-C8782) 	
+	Landed 2:59 AM
+4:10 AM 	WB302 	
+Mombasa (MBA)
+	RwandAir 	A332 (9XR-WN) 	
+	Landed 5:00 AM
+4:10 AM 	GF500 	
+Bahrain (BAH)
+	Gulf Air 	A320 (A9C-AM) 	
+	Landed 3:52 AM
+4:15 AM 	6E71 	
+Cochin (COK)
+	IndiGo 	A320 (VT-IEM) 	
+	Landed 3:47 AM
+4:15 AM 	FZ160 	
+Beirut (BEY)
+	FlyDubai 	B738 (A6-FDU) 	
+	Landed 4:51 AM
+4:20 AM 	EK307 	
+Beijing (PEK)
+	Emirates 	A388 (A6-EEE) 	
+	Landed 4:01 AM
+4:20 AM 	EK708 	
+Victoria (SEZ)
+	Emirates 	B77L (A6-EWA) 	
+	Landed 4:03 AM
+4:20 AM 	6E88 	
+Kozhikode (CCJ)
+	IndiGo 	A320 (VT-IEK) 	
+	Landed 4:57 AM
+4:25 AM 	EK585 	
+Dhaka (DAC)
+	Emirates 	B77W (A6-EGX) 	
+	Landed 4:05 AM
+4:25 AM 	ET612 	
+Addis Ababa (ADD)
+	Ethiopian Airlines 	B738 (ET-APK) 	
+	Landed 4:09 AM
+4:25 AM 	EK393 	
+Ho Chi Minh City (SGN)
+	Emirates 	B77W (A6-ENH) 	
+	Landed 3:49 AM
+4:30 AM 	EK343 	
+Kuala Lumpur (KUL)
+	Emirates 	A388 (A6-EOS) 	
+	Landed 3:43 AM
+4:30 AM 	EK379 	
+Phuket (HKT)
+	Emirates 	B77W (A6-ENY) 	
+	Landed 3:45 AM
+4:30 AM 	EK405 	
+Singapore (SIN)
+	Emirates(PSG Football Club Livery) 	A388 (A6-EOT) 	
+	Landed 4:55 AM
+4:35 AM 	9W588 	
+Delhi (DEL)
+	Jet Airways 	B738 (VT-JFS) 	
+	Landed 4:21 AM
+4:40 AM 	FZ555 	
+Colombo (CMB)
+	FlyDubai 	B738 (A6-FEJ) 	
+	Landed 4:29 AM
+4:40 AM 	QR1004 	
+Doha (DOH)
+	Qatar Airways 	A320 (A7-ADI) 	
+	Landed 4:23 AM
+4:45 AM 	EK722 	
+Nairobi (NBO)
+	Emirates 	B77W (A6-EBC) 	
+	Landed 4:33 AM
+4:45 AM 	EK3806 	
+Jeddah (JED)
+	Emirates 	B77W (A6-EGO) 	
+	Landed 4:16 AM
+4:45 AM 	6E47 	
+Delhi (DEL)
+	IndiGo 	A320 (VT-IFY) 	
+	Landed 4:31 AM
+4:50 AM 	EK319 	
+Tokyo (NRT)
+	Emirates 	B77W (A6-ECI) 	
+	Landed 3:54 AM
+4:55 AM 	AY963 	
+Helsinki (HEL)
+	Finnair 	A321 (OH-LZG) 	
+	Landed 5:06 AM
+4:55 AM 	EK794 	
+Luanda (LAD)
+	Emirates 	B77W (A6-ENU) 	
+	Landed 6:01 AM
+4:55 AM 	FZ632 	
+Khartoum (KRT)
+	FlyDubai 	B738 (A6-FET) 	
+	Landed 4:36 AM
+4:55 AM 	FZ30 	
+Bahrain (BAH)
+	FlyDubai 	B738 (A6-FDD) 	
+	Landed 5:47 AM
+5:00 AM 	EK385 	
+Bangkok (BKK)
+	Emirates 	A388 (A6-EDI) 	
+	Landed 4:25 AM
+5:00 AM 	EK323 	
+Seoul (ICN)
+	Emirates 	A388 (A6-EEN) 	
+	Landed 4:18 AM
+5:05 AM 	EK764 	
+Johannesburg (JNB)
+	Emirates 	B77W (A6-ECZ) 	
+	Landed 5:23 AM
+5:05 AM 	EK784 	
+Lagos (LOS)
+	Emirates 	B77W (A6-EBO) 	
+	Landed 4:12 AM
+5:05 AM 	FZ438 	
+Ahmedabad (AMD)
+	FlyDubai 	B738 (A6-FDE) 	
+	Landed 5:50 AM
+5:05 AM 	PA410 	
+Lahore (LHE)
+	AirBlue 	A321 (AP-BMN) 	
+	Landed 4:31 AM
+5:10 AM 	FZ558 	
+Colombo (CMB)
+	FlyDubai 	B738 (A6-FDR) 	
+	Landed 4:52 AM
+5:15 AM 	FZ12 	
+Doha (DOH)
+	FlyDubai 	B738 (A6-FEI) 	
+	Landed 5:12 AM
+5:15 AM 	EK363 	
+Guangzhou (CAN)
+	Emirates 	A388 (A6-EOO) 	
+	Landed 5:25 AM
+5:15 AM 	EK441 	
+Adelaide (ADL)
+	Emirates 	B77W (A6-ECA) 	
+	Landed 4:47 AM
+5:15 AM 	EK413 	
+Sydney (SYD)
+	Emirates 	A388 (A6-EUG) 	
+	Landed 5:09 AM
+5:15 AM 	EK303 	
+Shanghai (PVG)
+	Emirates 	A388 (A6-EES) 	
+	Landed 4:45 AM
+5:20 AM 	EK435 	
+Brisbane (BNE)
+	Emirates 	A388 (A6-EDN) 	
+	Landed 4:40 AM
+5:20 AM 	FZ436 	
+Hyderabad (HYD)
+	FlyDubai 	B738 (A6-FDM) 	
+	Landed 6:06 AM
+5:25 AM 	FZ442 	
+Cochin (COK)
+	FlyDubai 	B738 (A6-FEM) 	
+	Landed 5:37 AM
+5:25 AM 	EK399 	
+Denpasar (DPS)
+	Emirates 	B77W (A6-EBX) 	
+	Landed 4:38 AM
+5:25 AM 	EK776 	
+Durban (DUR)
+	Emirates 	B77W (A6-EBP) 	
+	Landed 5:13 AM
+5:25 AM 	EK421 	
+Perth (PER)
+	Emirates 	A388 (A6-EEU) 	
+	Landed 4:44 AM
+5:30 AM 	EK96 	
+Rome (FCO)
+	Emirates 	B773 (A6-EMQ) 	
+	Landed 5:29 AM
+5:30 AM 	EK359 	
+Jakarta (CGK)
+	Emirates 	B77W (A6-EBL) 	
+	Landed 5:04 AM
+5:35 AM 	EK381 	
+Hong Kong (HKG)
+	Emirates 	A388 (A6-EDV) 	
+	Landed 5:15 AM
+5:35 AM 	EK335 	
+Manila (MNL)
+	Emirates 	B77W (A6-EPE) 	
+	Landed 4:58 AM
+5:35 AM 	KQ304 	
+Nairobi (NBO)
+	Kenya Airways 	B738 (5Y-CYC) 	
+	Landed 6:03 AM
+5:35 AM 	EK407 	
+Melbourne (MEL)
+	Emirates 	A388 (A6-EEL) 	
+	Landed 5:17 AM
+5:40 AM 	EK449 	
+Auckland (AKL)
+	Emirates 	A388 (A6-EOF) 	
+	Landed 5:26 AM
+5:40 AM 	EK704 	
+Port Louis (MRU)
+	Emirates 	A388 (A6-EOI) 	
+	Landed 5:34 AM
+5:45 AM 	EK389 	
+Yangon (RGN)
+	Emirates 	B77W (A6-ENC) 	
+	Landed 5:02 AM
+5:45 AM 	EK771 	
+Cape Town (CPT)
+	Emirates 	B77W (A6-EGS) 	
+	Landed 5:32 AM
+5:45 AM 	EK367 	
+Taipei (TPE)
+	Emirates 	A388 (A6-EUD) 	
+	Landed 5:08 AM
+5:45 AM 	EK317 	
+Osaka (KIX)
+	Emirates 	B77W (A6-ECH) 	
+	Landed 4:53 AM
+5:50 AM 	EK32 	
+London (LHR)
+	Emirates 	A388 (A6-EUF) 	
+	Landed 5:55 AM
+5:50 AM 	EK371 	
+Bangkok (BKK)
+	Emirates 	B77W (A6-END) 	
+	Landed 5:43 AM
+5:50 AM 	EK623 	
+Lahore (LHE)
+	Emirates 	B77W (A6-ENI) 	
+	Landed 5:53 AM
+5:55 AM 	EK848 	
+Doha (DOH)
+	Emirates 	B77W (A6-EPB) 	
+	Landed 5:41 AM
+5:55 AM 	EK349 	
+Colombo (CMB)
+	Emirates 	B77W (A6-ENT) 	
+	Landed 5:47 AM
+5:55 AM 	EK788 	
+Accra (ACC)
+	Emirates 	B77W (A6-EPC) 	
+	Landed 5:39 AM
+6:05 AM 	EK48 	
+Frankfurt (FRA)
+	Emirates 	A388 (A6-EUE) 	
+	Landed 5:39 AM
+6:05 AM 	EK84 	
+Geneva (GVA)
+	Emirates 	B77W (A6-EGM) 	
+	Landed 6:13 AM
+6:05 AM 	EK501 	
+Mumbai (BOM)
+	Emirates 	A388 (A6-EUB) 	
+	Landed 5:35 AM
+6:05 AM 	EK867 	
+Muscat (MCT)
+	Emirates (Arsenal F.C. Livery) 	B77L (A6-EWJ) 	
+	Landed 5:59 AM
+6:10 AM 	FZ332 	
+Karachi (KHI)
+	FlyDubai 	B738 (A6-FDV) 	
+	Landed 5:52 AM
+6:10 AM 	EK539 	
+Ahmedabad (AMD)
+	Emirates 	B77L (A6-EWH) 	
+	Landed 6:15 AM
+6:15 AM 	EK58 	
+Dusseldorf (DUS)
+	Emirates 	A388 (A6-EOX) 	
+	Landed 6:11 AM
+6:15 AM 	EK62 	
+Hamburg (HAM)
+	Emirates 	B77W (A6-EGT) 	
+	Landed 6:20 AM
+6:20 AM 	FZ860 	
+Al-Qassim (ELQ)
+	FlyDubai 	B738 (A6-FDW) 	
+	Landed 5:49 AM
+6:20 AM 	FZ42 	
+Muscat (MCT)
+	FlyDubai 	B738 (A6-FEP) 	
+	Landed 6:11 AM
+6:20 AM 	EK543 	
+Chennai (MAA)
+	Emirates 	B77W (A6-ECB) 	
+	Landed 7:03 AM
+6:20 AM 	EK132 	
+Moscow (DME)
+	Emirates 	A388 (A6-EEH) 	
+	Landed 6:11 AM
+6:25 AM 	EK92 	
+Milan (MXP)
+	Emirates 	A388 (A6-EDR) 	
+	Landed 6:24 AM
+6:25 AM 	FZ432 	
+Delhi (DEL)
+	FlyDubai 	B738 (A6-FDZ) 	
+	Landed 6:48 AM
+6:30 AM 	EK854 	
+Kuwait City (KWI)
+	Emirates 	B77W (A6-EPK) 	
+	Landed 5:58 AM
+6:30 AM 	EK513 	
+Delhi (DEL)
+	Emirates 	B773 (A6-EMN) 	
+	Landed 6:51 AM
+6:30 AM 	QF9 	
+Melbourne (MEL)
+	Qantas 	A388 (VH-OQF) 	
+	Landed 6:44 AM
+6:30 AM 	EK52 	
+Munich (MUC)
+	Emirates 	A388 (A6-EEO) 	
+	Landed 6:25 AM
+6:35 AM 	EK824 	
+Dammam (DMM)
+	Emirates 	B77W (A6-EGK) 	
+	Landed 6:35 AM
+6:40 AM 	EK525 	
+Hyderabad (HYD)
+	Emirates 	B77W (A6-EPR) 	
+	Landed 6:19 AM
+6:40 AM 	EK714 	
+Lusaka (LUN)
+	Emirates 	B77W (A6-EGZ) 	
+	Landed 6:28 AM
+6:40 AM 	EK126 	
+Vienna (VIE)
+	Emirates 	B77W (A6-EGP) 	
+	Landed 6:17 AM
+6:45 AM 	EK419 	
+Bangkok (BKK)
+	Emirates (AC Milan Livery) 	A388 (A6-EET) 	
+	Landed 6:22 AM
+6:45 AM 	EK906 	
+Amman (AMM)
+	Emirates 	B77W (A6-EPD) 	
+	Landed 6:39 AM
+6:45 AM 	FZ174 	
+Alexandria (HBE)
+	FlyDubai 	B738 (A6-FDH) 	
+	Landed 7:18 AM
+6:50 AM 	EK569 	
+Bangalore (BLR)
+	Emirates 	B77W (A6-EGW) 	
+	Landed 6:49 AM
+6:50 AM 	CX745 	
+Hong Kong (HKG)
+	Cathay Pacific 	A333 (B-LAZ) 	
+	Landed 6:33 AM
+6:55 AM 	EK605 	
+Karachi (KHI)
+	Emirates 	B77W (A6-EPT) 	
+	Landed 7:01 AM
+6:55 AM 	EK816 	
+Riyadh (RUH)
+	Emirates 	B77W (A6-EGR) 	
+	Landed 6:31 AM
+6:55 AM 	EK956 	
+Beirut (BEY)
+	Emirates 	B77W (A6-ECQ) 	
+	Landed 6:29 AM
+6:55 AM 	FZ522 	
+Bangkok (BKK)
+	FlyDubai 	B738 (A6-FDQ) 	
+	Landed 6:39 AM
+7:05 AM 	FZ754 	
+Istanbul (SAW)
+	FlyDubai 	B738 (A6-FDS) 	
+	Landed 6:59 AM
+7:05 AM 	FZ446 	
+Mumbai (BOM)
+	FlyDubai 	B738 (A6-FEB) 	
+	Landed 6:40 AM
+7:05 AM 	EK533 	
+Cochin (COK)
+	Emirates 	B77L (A6-EWI) 	
+	Landed 6:46 AM
+7:05 AM 	EK4 	
+London (LHR)
+	Emirates 	A388 (A6-EED) 	
+	Landed 7:38 AM
+7:10 AM 	TK762 	
+Istanbul (IST)
+	Turkish Airlines 	B77W (TC-JJG) 	
+	Landed 6:55 AM
+7:15 AM 	EK523 	
+Thiruvananthapuram (TRV)
+	Emirates 	B77W (A6-ECK) 	
+	Landed 7:13 AM
+7:15 AM 	FZ706 	
+Astana (TSE)
+	FlyDubai 	B738 (A6-FEQ) 	
+	Landed 7:27 AM
+7:20 AM 	EK313 	
+Tokyo (HND)
+	Emirates 	B77L (A6-EWF) 	
+	Landed 6:42 AM
+7:20 AM 	EK86 	
+Zurich (ZRH)
+	Emirates 	A388 (A6-EUC) 	
+	Landed 6:53 AM
+7:20 AM 	EK76 	
+Paris (CDG)
+	Emirates 	A388 (A6-EEY) 	
+	Landed 9:11 AM
+7:20 AM 	EK10 	
+London (LGW)
+	Emirates 	A388 (A6-EOU) 	
+	Landed 6:57 AM
+7:30 AM 	BA105 	
+London (LHR)
+	British Airways 	B77W (G-STBH) 	
+	Landed 7:20 AM
+7:35 AM 	EK779 	
+Cape Town (CPT)
+	Emirates 	B77W (A6-EGL) 	
+	Landed 7:05 AM
+7:35 AM 	EK150 	
+Amsterdam (AMS)
+	Emirates 	A388 (A6-EDQ) 	
+	Landed 7:15 AM
+7:40 AM 	EK38 	
+Birmingham (BHX)
+	Emirates 	B77W (A6-EBA) 	
+	Landed 7:30 AM
+7:40 AM 	EK144 	
+Madrid (MAD)
+	Emirates 	B77W (A6-EBT) 	
+	Landed 7:41 AM
+7:45 AM 	EK20 	
+Manchester (MAN)
+	Emirates 	A388 (A6-EOQ) 	
+	Landed 7:22 AM
+7:45 AM 	QF2 	
+London (LHR)
+	Qantas 	A388 (VH-OQL) 	
+	Landed 7:32 AM
+7:50 AM 	EK188 	
+Barcelona (BCN)
+	Emirates 	A388 (A6-EOY) 	
+	Diverted to DWC
+7:55 AM 	IX195 	
+Jaipur (JAI)
+	Air India Express 	B738 (VT-AYC) 	
+	Landed 7:25 AM
+8:00 AM 	FZ714 	
+Tbilisi (TBS)
+	FlyDubai 	B738 (A6-FDY) 	
+	Landed 8:00 AM
+8:05 AM 	AH4062 	
+Algiers (ALG)
+	Air Algerie 	A332 (7T-VJY) 	
+	Landed 7:07 AM
+8:05 AM 	EK26 	
+Glasgow (GLA)
+	Emirates 	B77W (A6-ENZ) 	
+	Landed 7:35 AM
+8:05 AM 	EK880 	
+Doha (DOH)
+	Emirates 	B77W (A6-EGG) 	
+	Landed 7:45 AM
+8:10 AM 	QR1024 	
+Doha (DOH)
+	Qatar Airways 	A320 (A7-AHJ) 	
+	Landed 8:09 AM
+8:10 AM 	EK240 	
+Boston (BOS)
+	Emirates 	B77W (A6-EGA) 	
+	Landed 8:03 AM
+8:10 AM 	EK204 	
+New York (JFK)
+	Emirates 	A388 (A6-EDZ) 	
+	Landed 7:56 AM
+8:10 AM 	EK232 	
+Washington (IAD)
+	Emirates 	A388 (A6-EOG) 	
+	Landed 7:50 AM
+8:15 AM 	EK164 	
+Dublin (DUB)
+	Emirates 	B77W (A6-ECO) 	
+	Landed 7:54 AM
+8:15 AM 	EK766 	
+Johannesburg (JNB)
+	Emirates 	B77W (A6-EBN) 	
+	Landed 8:16 AM
+8:20 AM 	FZ7070 	
+Jeddah (JED)
+	Flydubai 	B738 (A6-FGB) 	
+	Landed 8:02 AM
+8:20 AM 	EK976 	
+Tehran (IKA)
+	Emirates 	B77W (A6-EBH) 	
+	Landed 7:53 AM
+8:20 AM 	EK808 	
+Medina (MED)
+	Emirates 	B773 (A6-EMS) 	
+	Landed 7:48 AM
+8:25 AM 	FZ760 	
+Bishkek (FRU)
+	FlyDubai 	B738 (A6-FDK) 	
+	Unknown
+8:30 AM 	FZ448 	
+Chennai (MAA)
+	FlyDubai 	B738 (A6-FEF) 	
+	Landed 8:31 AM
+8:35 AM 	BA109 	
+London (LHR)
+	British Airways 	B789 (G-ZBKN) 	
+	Landed 8:27 AM
+8:45 AM 	EK6 	
+London (LHR)
+	Emirates 	A388 (A6-EDS) 	
+	Landed 8:35 AM
+9:10 AM 	QR1000 	
+Doha (DOH)
+	Qatar Airways 	A321 (A7-AIB) 	
+	Landed 9:10 AM
+9:15 AM 	FZ70 	
+Kuwait City (KWI)
+	FlyDubai 	B738 (A6-FEU) 	
+	Landed 8:33 AM
+9:25 AM 	SV562 	
+Riyadh (RUH)
+	Saudia 	A321 (HZ-ASQ) 	
+	Landed 8:50 AM
+9:25 AM 	6E23 	
+Delhi (DEL)
+	IndiGo 	A320 (VT-IAN) 	
+	Landed 12:27 PM
+9:30 AM 	EK802 	
+Jeddah (JED)
+	Emirates 	B77W (A6-EBG) 	
+	Landed 9:26 AM
+9:35 AM 	GF502 	
+Bahrain (BAH)
+	Gulf Air 	A321 (A9C-CF) 	
+	Landed 9:53 AM
+9:35 AM 	FZ782 	
+Prague (PRG)
+	FlyDubai 	B738 (A6-FEG) 	
+	Landed 9:28 AM
+9:40 AM 	VS400 	
+London (LHR)
+	Virgin Atlantic 	A333 (G-VGBR) 	
+	Landed 8:58 AM
+9:40 AM 	J9164 	
+Kuwait City (KWI)
+	Jazeera Airways 	A320 (9K-CAL) 	
+	Landed 9:17 AM
+9:45 AM 	6E65 	
+Chennai (MAA)
+	IndiGo 	A320 (VT-IEL) 	
+	Landed 9:19 AM
+9:50 AM 	6E95 	
+Bangalore (BLR)
+	IndiGo 	A320 (VT-IAS) 	
+	Landed 9:23 AM
+10:00 AM 	WY603 	
+Muscat (MCT)
+	Oman Air 	B738 (A4O-BM) 	
+	Landed 9:50 AM
+10:10 AM 	QR1006 	
+Doha (DOH)
+	Qatar Airways 	A359 (A7-ALL) 	
+	Landed 9:59 AM
+10:10 AM 	SG11 	
+Delhi (DEL)
+	Corendon Airlines 	B738 (TC-TJO) 	
+	Landed 12:47 PM
+10:10 AM 	PK283 	
+Peshawar (PEW)
+	Pakistan International Airlines 	A320 (AP-BLC) 	
+	Landed 9:55 AM
+10:20 AM 	FZ24 	
+Bahrain (BAH)
+	FlyDubai 	B738 (A6-FED) 	
+	Landed 10:16 AM
+10:25 AM 	KC895 	
+Almaty (ALA)
+	Air Astana 	A321 (P4-OAS) 	
+	Landed 10:21 AM
+10:30 AM 	EK637 	
+Peshawar (PEW)
+	Emirates 	B77W (A6-ENN) 	
+	Landed 10:12 AM
+10:30 AM 	FZ334 	
+Karachi (KHI)
+	Flydubai 	B738 (A6-FGF) 	
+	Landed 10:05 AM
+10:30 AM 	W561 	
+Tehran (IKA)
+	Mahan Air 	A346 (EP-MMI) 	
+	Landed 10:23 AM
+10:30 AM 	6E63 	
+Mumbai (BOM)
+	IndiGo 	A320 (VT-IAY) 	
+	Landed 10:06 AM
+10:40 AM 	XY201 	
+Riyadh (RUH)
+	Flynas 	A320 (VP-CXR) 	
+	Landed 10:11 AM
+10:40 AM 	FZ2 	
+Doha (DOH)
+	FlyDubai 	B738 (A6-FEK) 	
+	Landed 10:42 AM
+10:45 AM 	SV566 	
+Jeddah (JED)
+	Saudia 	A321 (HZ-ASV) 	
+	Landed 11:11 AM
+10:45 AM 	4Q203 	
+Kabul (KBL)
+	Safi Airways 	319 	
+	Unknown
+10:55 AM 	MS901 	
+Cairo (CAI)
+	Egyptair 	B738 (SU-GDZ) 	
+	Landed 10:35 AM
+10:55 AM 	FZ730 	
+Kiev (IEV)
+	FlyDubai 	B738 (A6-FDO) 	
+	Diverted to DWC
+10:55 AM 	FZ46 	
+Muscat (MCT)
+	FlyDubai 	B738 (A6-FDR) 	
+	Landed 10:52 AM
+11:00 AM 	9W210 	
+Thiruvananthapuram (TRV)
+	Jet Airways 	B738 (VT-JGQ) 	
+	Landed 12:43 PM
+11:05 AM 	IX383 	
+Mangalore (IXE)
+	Air India Express 	B738 (VT-AYB) 	
+	Landed 10:18 AM
+11:05 AM 	QR1250 	
+Doha (DOH)
+	Qatar Airways 	A320 (A7-ADI) 	
+	Landed 10:48 AM
+11:05 AM 	9W542 	
+Mumbai (BOM)
+	Jet Airways 	B738 (VT-JGW) 	
+	Landed 10:19 AM
+11:10 AM 	FZ866 	
+Dammam (DMM)
+	FlyDubai 	B738 (A6-FET) 	
+	Landed 10:39 AM
+11:15 AM 	XY501 	
+Jeddah (JED)
+	Flynas 	A320 (VP-CXS) 	
+	Landed 11:29 AM
+11:15 AM 	FZ551 	
+Hambantota (HRI)
+	FlyDubai 	B738 (A6-FEX) 	
+	Landed 12:51 PM
+11:15 AM 	EK541 	
+Ahmedabad (AMD)
+	Emirates 	B77L (A6-EWE) 	
+	Landed 10:57 AM
+11:15 AM 	W51024 	
+Kerman (KER)
+	Mahan Air 	(EP-EOI) 	
+	Landed 10:51 AM
+11:20 AM 	FZ836 	
+Jeddah (JED)
+	FlyDubai 	B738 (A6-FDJ) 	
+	Landed 12:49 PM
+11:25 AM 	FZ302 	
+Kabul (KBL)
+	FlyDubai 	B738 (A6-FDL) 	
+	Landed 11:24 AM
+11:30 AM 	EK228 	
+Seattle (SEA)
+	Emirates 	B77W (A6-ECU) 	
+	Landed 11:09 AM
+11:30 AM 	IA127 	
+Basra (BSR)
+	Iraqi Airways 	737 	
+	Unknown
+11:35 AM 	EK613 	
+Islamabad (ISB)
+	Emirates 	B77W (A6-EPQ) 	
+	Landed 11:19 AM
+11:35 AM 	IX345 	
+Kozhikode (CCJ)
+	Air India Express 	B738 (VT-GHC) 	
+	Landed 11:00 AM
+11:40 AM 	EK309 	
+Beijing (PEK)
+	Emirates 	B77W (A6-EGB) 	
+	Landed 11:14 AM
+11:40 AM 	IA127 	
+Basra (BSR)
+	Iraqi Airways 	B738 (YI-ASQ) 	
+	Landed 11:32 AM
+11:45 AM 	WY605 	
+Muscat (MCT)
+	Oman Air 	B738 (A4O-BX) 	
+	Landed 12:13 PM
+11:45 AM 	FZ658 	
+Asmara (ASM)
+	FlyDubai 	B738 (A6-FEA) 	
+	Landed 11:50 AM
+11:45 AM 	FZ8574 	
+Kathmandu (KTM)
+	FlyDubai 	B738 (A6-FDC) 	
+	Landed 2:30 PM
+11:50 AM 	FZ54 	
+Kuwait City (KWI)
+	FlyDubai 	B738 (A6-FEM) 	
+	Landed 10:56 AM
+11:55 AM 	SG57 	
+Jaipur (JAI)
+	Corendon Airlines 	B738 (TC-TJT) 	
+	Landed 11:34 AM
+11:55 AM 	EK863 	
+Muscat (MCT)
+	Emirates 	B773 (A6-EMQ) 	
+	Landed 11:55 AM
+11:55 AM 	EK222 	
+Dallas (DFW)
+	Emirates 	B77W (A6-EGI) 	
+	Landed 11:52 AM
+12:00 PM 	EK838 	
+Bahrain (BAH)
+	Emirates 	B77W (A6-EGY) 	
+	Landed 12:15 PM
+12:00 PM 	EK842 	
+Doha (DOH)
+	Emirates 	A388 (A6-EUG) 	
+	Landed 11:25 AM
+12:05 PM 	EK625 	
+Lahore (LHE)
+	Emirates 	B77W (A6-EBZ) 	
+	Landed 12:23 PM
+12:05 PM 	FZ838 	
+Yanbu (YNB)
+	FlyDubai 	B738 (A6-FEL) 	
+	Landed 11:36 AM
+12:05 PM 	KU671 	
+Kuwait City (KWI)
+	Kuwait Airways 	A332 (9K-APC) 	
+	Landed 12:47 PM
+12:10 PM 	QB2202 	
+Tehran (IKA)
+	Qeshm Airlines 	A320 (EP-FQR) 	
+	Landed 11:53 AM
+12:10 PM 	QR1022 	
+Doha (DOH)
+	Qatar Airways 	A320 (A7-AHS) 	
+	Landed 11:43 AM
+12:10 PM 	GF504 	
+Bahrain (BAH)
+	Gulf Air 	A320 (A9C-AF) 	
+	Landed 11:45 AM
+12:10 PM 	EK531 	
+Cochin (COK)
+	Emirates 	B773 (A6-EMP) 	
+	Landed 12:07 PM
+12:10 PM 	EK505 	
+Mumbai (BOM)
+	Emirates 	B77W (A6-ENR) 	
+	Landed 11:58 AM
+12:20 PM 	EK220 	
+Orlando (MCO)
+	Emirates 	B77W (A6-ECE) 	
+	Landed 12:31 PM
+12:20 PM 	EK305 	
+Shanghai (PVG)
+	Emirates 	B77W (A6-EBM) 	
+	Landed 11:48 AM
+12:20 PM 	EK820 	
+Riyadh (RUH)
+	Emirates 	B77W (A6-EPO) 	
+	Landed 11:58 AM
+12:20 PM 	EP6534 	
+Zahedan (ZAH)
+	Iran Aseman Airlines 	100 	
+	Unknown
+12:20 PM 	O9250 	
+Khartoum (KRT)
+	Nova Airways 	321 	
+	Unknown
+12:25 PM 	FZ848 	
+Riyadh (RUH)
+	FlyDubai 	B738 (A6-FDM) 	
+	Landed 12:56 PM
+12:25 PM 	EK657 	
+Male (MLE)
+	Emirates 	B77W (A6-EPH) 	
+	Landed 12:05 PM
+12:30 PM 	UY70 	
+Riyadh (RUH)
+	Cameroon Airlines 	GRJ 	
+	Unknown
+12:30 PM 	AI933 	
+Cochin (COK)
+	Air India 	A320 (VT-EXD) 	
+	Landed 12:52 PM
+12:30 PM 	EK337 	
+Manila (MNL)
+	Emirates 	B77W (A6-EBV) 	
+	Landed 12:01 PM
+12:30 PM 	ME426 	
+Beirut (BEY)
+	MEA (Skyteam Livery) 	A320 (T7-MRD) 	
+	Landed 12:20 PM
+12:35 PM 	EK856 	
+Kuwait City (KWI)
+	Emirates 	B77W (A6-ECA) 	
+	Landed 1:54 PM
+12:35 PM 	EK621 	
+Sialkot (SKT)
+	Emirates 	B77W (A6-ENW) 	
+	Landed 12:25 PM
+12:35 PM 	EK387 	
+Hong Kong (HKG)
+	Emirates 	B77W (A6-EBJ) 	
+	Landed 11:39 AM
+12:40 PM 	PK203 	
+Lahore (LHE)
+	Pakistan International Airlines 	A320 (AP-BLZ) 	
+	Landed 12:28 PM
+12:40 PM 	EK545 	
+Chennai (MAA)
+	Emirates 	B773 (A6-EMR) 	
+	Landed 12:02 PM
+12:40 PM 	EK527 	
+Hyderabad (HYD)
+	Emirates 	B77W (A6-EPL) 	
+	Landed 12:09 PM
+12:40 PM 	EK425 	
+Perth (PER)
+	Emirates 	A388 (A6-EEQ) 	
+	Landed 12:17 PM
+12:45 PM 	EK571 	
+Kolkata (CCU)
+	Emirates 	B77W (A6-ECT) 	
+	Landed 12:34 PM
+12:45 PM 	IA123 	
+Baghdad (BGW)
+	Iraqi Airways 	737 	
+	Unknown
+12:55 PM 	RJ610 	
+Amman (AMM)
+	Royal Jordanian 	A320 (JY-AYW) 	
+	Landed 12:43 PM
+12:55 PM 	J211 	
+Baku (GYD)
+	Azerbaijan Airlines 	B752 (4K-AZ11) 	
+	Landed 12:54 PM
+12:55 PM 	IY822 	
+Aden (ADE)
+	Yemenia 	320 	
+	Unknown
+12:55 PM 	EK521 	
+Thiruvananthapuram (TRV)
+	Emirates 	B77W (A6-ECG) 	
+	Landed 12:39 PM
+1:00 PM 	EK651 	
+Colombo (CMB)
+	Emirates 	B77W (A6-EPA) 	
+	Landed 12:30 PM
+1:00 PM 	EK565 	
+Bangalore (BLR)
+	Emirates 	B77W (A6-ENP) 	
+	Landed 12:39 PM
+1:00 PM 	EK511 	
+Delhi (DEL)
+	Emirates 	B77W (A6-ENG) 	
+	Landed 2:26 PM
+1:00 PM 	EK433 	
+Singapore (SIN)
+	Emirates 	B77W (A6-EPU) 	
+	Delayed 3:54 PM
+1:00 PM 	EK369 	
+Jakarta (CGK)
+	Emirates 	B77W (A6-EPN) 	
+	Landed 12:21 PM
+1:05 PM 	EK409 	
+Melbourne (MEL)
+	Emirates 	B77W (A6-EGC) 	
+	Landed 12:35 PM
+1:10 PM 	EK706 	
+Victoria (SEZ)
+	Emirates 	B77W (A6-ENS) 	
+	Landed 1:46 PM
+1:10 PM 	FZ8226 	
+Najaf (NJF)
+	FlyDubai 	B738 (A6-FDD) 	
+	Landed 12:46 PM
+1:15 PM 	EK946 	
+Basra (BSR)
+	Emirates 	B77W (A6-ENT) 	
+	Diverted to DWC
+1:15 PM 	EK397 	
+Phuket (HKT)
+	Emirates 	B77W (A6-EPJ) 	
+	Landed 1:49 PM
+1:15 PM 	EK375 	
+Bangkok (BKK)
+	Emirates 	A388 (A6-EDJ) 	
+	Landed 1:43 PM
+1:20 PM 	EK345 	
+Kuala Lumpur (KUL)
+	Emirates 	B77W (A6-ECY) 	
+	Landed 1:41 PM
+1:20 PM 	EK415 	
+Sydney (SYD)
+	Emirates 	A388 (A6-EEM) 	
+	Diverted to DWC
+1:20 PM 	EK583 	
+Dhaka (DAC)
+	Emirates 	B77W (A6-EBS) 	
+	Landed 2:23 PM
+1:20 PM 	EK601 	
+Karachi (KHI)
+	Emirates 	B77W (A6-ENK) 	
+	Landed 1:56 PM
+1:25 PM 	FZ56 	
+Kuwait City (KWI)
+	FlyDubai 	B738 (A6-FEH) 	
+	Diverted to DWC
+1:30 PM 	IA123 	
+Baghdad (BGW)
+	Iraqi Airways 	B738 (YI-ASS) 	
+	Landed 2:04 PM
+1:30 PM 	FZ222 	
+Najaf (NJF)
+	Flydubai 	B738 (A6-FGE) 	
+	Diverted to DWC
+1:35 PM 	EK968 	
+Mashhad (MHD)
+	Emirates 	B77W (A6-EBP) 	
+	Landed 1:53 PM
+1:35 PM 	EK972 	
+Tehran (IKA)
+	Emirates 	B77W (A6-EBX) 	
+	Landed 2:08 PM
+1:35 PM 	9W546 	
+Delhi (DEL)
+	Jet Airways 	B738 (VT-JGV) 	
+	Landed 2:43 PM
+1:45 PM 	U6891 	
+Moscow (DME)
+	Ural Airlines 	A321 (VQ-BOZ) 	
+	Landed 2:30 PM
+1:45 PM 	EK353 	
+Singapore (SIN)
+	Emirates 	B77W (A6-ENJ) 	
+	Landed 2:02 PM
+1:45 PM 	AI937 	
+Kozhikode (CCJ)
+	Air India 	A320 (VT-EXB) 	
+	Landed 1:55 PM
+1:55 PM 	EK852 	
+Doha (DOH)
+	Emirates 	B77W (A6-ECW) 	
+	Landed 2:23 PM
+1:55 PM 	FZ51 	
+Muscat (MCT)
+	FlyDubai 	B738 (A6-FED) 	
+	Landed 2:38 PM
+1:55 PM 	FZ148 	
+Amman (AMM)
+	FlyDubai 	B738 (A6-FEJ) 	
+	Landed 2:11 PM
+1:55 PM 	FZ710 	
+Baku (GYD)
+	FlyDubai 	B738 (A6-FEI) 	
+	Landed 2:06 PM
+1:55 PM 	SG55 	
+Amritsar (ATQ)
+	SpiceJet 	B738 (VT-SGJ) 	
+	Delayed 4:43 PM
+1:55 PM 	FZ38 	
+Muscat (MCT)
+	FlyDubai 	B738 (A6-FED) 	
+	Unknown
+2:05 PM 	W563 	
+Tehran (IKA)
+	Mahan Air 	310 	
+	Unknown
+2:05 PM 	NL766 	
+Lahore (LHE)
+	Shaheen Air International 	32S 	
+	Unknown
+2:05 PM 	EK208 	
+New York (JFK)
+	Emirates 	A388 (A6-EDB) 	
+	Landed 2:14 PM
+2:10 PM 	QR1010 	
+Doha (DOH)
+	Qatar Airways 	A320 (A7-AHJ) 	
+	Landed 2:17 PM
+2:15 PM 	FZ216 	
+Baghdad (BGW)
+	FlyDubai 	B738 (A6-FEE) 	
+	Landed 2:19 PM
+2:15 PM 	FZ230 	
+Basra (BSR)
+	FlyDubai 	B738 (A6-FDZ) 	
+	Landed 2:11 PM
+2:20 PM 	EK659 	
+Male (MLE)
+	Emirates 	B77L (A6-EWC) 	
+	Landed 2:12 PM
+2:25 PM 	PA210 	
+Islamabad (ISB)
+	AirBlue 	A321 (AP-BMW) 	
+	Landed 2:48 PM
+2:25 PM 	FZ16 	
+Doha (DOH)
+	Flydubai 	B738 (A6-FGF) 	
+	Landed 3:05 PM
+2:27 PM 	FZ730 	
+Dubai (DWC)
+	FlyDubai 	B738 (A6-FDO) 	
+	Landed 2:48 PM
+2:30 PM 	MS912 	
+Cairo (CAI)
+	Egyptair 	B77W (SU-GDN) 	
+	Landed 2:54 PM
+2:30 PM 	SV558 	
+Riyadh (RUH)
+	Saudia 	B772 (HZ-AKW) 	
+	Landed 2:56 PM
+2:30 PM 	UY90 	
+Jeddah (JED)
+	Cameroon Airlines 	GRJ 	
+	Unknown
+2:35 PM 	FZ584 	
+Dhaka (DAC)
+	Flydubai 	B738 (A6-FGD) 	
+	Landed 2:50 PM
+2:42 PM 	EK415 	
+Dubai (DWC)
+	Emirates 	A388 (A6-EEM) 	
+	Landed 2:59 PM
+2:44 PM 	FZ222 	
+Dubai (DWC)
+	Flydubai 	B738 (A6-FGE) 	
+	Landed 3:04 PM
+2:45 PM 	EK806 	
+Jeddah (JED)
+	Emirates 	B77W (A6-ENY) 	
+	Landed 2:57 PM
+2:45 PM 	9W536 	
+Mumbai (BOM)
+	Jet Airways 	B738 (VT-JBF) 	
+	Landed 2:20 PM
+2:55 PM 	FZ590 	
+Chittagong (CGP)
+	FlyDubai 	B738 (A6-FDF) 	
+	Delayed 3:50 PM
+2:55 PM 	IX247 	
+Mumbai (BOM)
+	Air India Express 	B738 (VT-AYD) 	
+	Landed 2:43 PM
+2:55 PM 	XY205 	
+Riyadh (RUH)
+	Flynas 	A320 (VP-CXO) 	
+	Landed 2:37 PM
+3:00 PM 	SV568 	
+Dammam (DMM)
+	Saudia 	A320 (HZ-AS11) 	
+	Landed 2:47 PM
+3:00 PM 	PK211 	
+Islamabad (ISB)
+	Pakistan International Airlines 	A320 (AP-BLB) 	
+	Landed 2:40 PM
+3:00 PM 	FZ204 	
+Arbil (EBL)
+	FlyDubai 	B738 (A6-FDV) 	
+	Landed 3:02 PM
+3:01 PM 	FZ56 	
+Dubai (DWC)
+	FlyDubai 	B738 (A6-FEH) 	
+	Delayed 3:18 PM
+3:06 PM 	EK946 	
+Dubai (DWC)
+	Emirates 	B77W (A6-ENT) 	
+	Delayed 3:34 PM
+3:10 PM 	SU520 	
+Moscow (SVO)
+	Aeroflot 	A333 (VQ-BCV) 	
+	Delayed 3:59 PM
+3:10 PM 	QR1016 	
+Doha (DOH)
+	Qatar Airways 	A319 (A7-CJB) 	
+	Landed 2:51 PM
+3:10 PM 	3V52 	
+Hong Kong (HKG)
+	ASL Airlines Belgium 	B77L (OO-TSB) 	
+	Landed 2:52 PM
+3:15 PM 	EK607 	
+Karachi (KHI)
+	Emirates 	B77W (A6-END) 	
+	Estimated 3:26 PM
+3:01 PM 	FZ56 	
+Dubai (DWC)
+	FlyDubai 	B738 (A6-FEH) 	
+	Delayed 3:18 PM
+3:06 PM 	EK946 	
+Dubai (DWC)
+	Emirates 	B77W (A6-ENT) 	
+	Scheduled
+3:10 PM 	SU520 	
+Moscow (SVO)
+	Aeroflot 	A333 (VQ-BCV) 	
+	Delayed 3:59 PM
+3:10 PM 	QR1016 	
+Doha (DOH)
+	Qatar Airways 	A319 (A7-CJB) 	
+	Landed 2:51 PM
+3:10 PM 	3V52 	
+Hong Kong (HKG)
+	ASL Airlines Belgium 	B77L (OO-TSB) 	
+	Landed 2:52 PM
+3:15 PM 	EK607 	
+Karachi (KHI)
+	Emirates 	B77W (A6-END) 	
+	Estimated 3:26 PM
+3:20 PM 	3V51 	
+Liege (LGG)
+	ASL Airlines Belgium 	B77L (OO-TSC) 	
+	Estimated 3:21 PM
+3:30 PM 	FZ832 	
+Jeddah (JED)
+	FlyDubai 	B738 (A6-FEP) 	
+	Landed 3:07 PM
+3:35 PM 	WY609 	
+Muscat (MCT)
+	Oman Air 	B739 (A4O-BI) 	
+	Landed 3:09 PM
+3:45 PM 	TK756 	
+Istanbul (SAW)
+	Turkish Airlines 	B738 (TC-JVB) 	
+	Estimated 3:22 PM
+3:45 PM 	FZ336 	
+Karachi (KHI)
+	Flydubai 	B738 (A6-FGB) 	
+	Estimated 3:55 PM
+3:45 PM 	ET602 	
+Addis Ababa (ADD)
+	Ethiopian Airlines 	A359 (ET-ATQ) 	
+	Landed 3:12 PM
+3:55 PM 	IX141 	
+Delhi (DEL)
+	Air India Express 	B738 (VT-AXT) 	
+	Delayed 5:41 PM
+3:55 PM 	QB2200 	
+Qeshm Island (GSM)
+	Qeshm Airlines 	RJ1H (EP-FQU) 	
+	Scheduled
+4:00 PM 	IX435 	
+Cochin (COK)
+	Air India Express 	B738 (VT-AXN) 	
+	Estimated 3:37 PM
+4:00 PM 	SV588 	
+Jeddah (JED)
+	Saudia 	A333 (HZ-AQ12) 	
+	Estimated 3:46 PM
+4:05 PM 	EK902 	
+Amman (AMM)
+	Emirates 	B77W (A6-ECR) 	
+	Estimated 3:50 PM
+4:10 PM 	3U8945 	
+Yinchuan (INC)
+	Sichuan Airlines 	A333 (B-5945) 	
+	Estimated 3:29 PM
+4:15 PM 	GF506 	
+Bahrain (BAH)
+	Gulf Air 	A320 (A9C-AL) 	
+	Estimated 4:01 PM
+4:30 PM 	AY961 	
+Helsinki (HEL)
+	Finnair 	A321 (OH-LZK) 	
+	Delayed 4:58 PM
+4:30 PM 	FZ524 	
+Bangkok (BKK)
+	FlyDubai 	B738 (A6-FEO) 	
+	Estimated 4:16 PM
+4:30 PM 	J9176 	
+Kuwait City (KWI)
+	Jazeera Airways 	A320 (9K-CAJ) 	
+	Estimated 4:28 PM
+4:30 PM 	Y97138 	
+Kish Island (KIH)
+	Kish Air 	M82 	
+	Scheduled
+4:45 PM 	CX746 	
+Bahrain (BAH)
+	Cathay Pacific 	A333 (B-LAZ) 	
+	Scheduled
+4:45 PM 	SV554 	
+Riyadh (RUH)
+	Saudia (Skyteam Livery) 	A333 (HZ-AQL) 	
+	Estimated 4:45 PM
+4:55 PM 	EK872 	
+Kuwait City (KWI)
+	Emirates 	B773 (A6-EMS) 	
+	Scheduled
+4:55 PM 	6E26 	
+Hyderabad (HYD)
+	IndiGo 	A320 (VT-IFW) 	
+	Estimated 5:02 PM
+5:00 PM 	NL786 	
+Peshawar (PEW)
+	Shaheen Air 	A320 (AP-BMC) 	
+	Estimated 4:37 PM
+5:00 PM 	FZ76 	
+Kuwait City (KWI)
+	FlyDubai 	B738 (A6-FDG) 	
+	Estimated 4:58 PM
+5:00 PM 	EK878 	
+Doha (DOH)
+	Emirates 	B773 (A6-EMU) 	
+	Scheduled
+5:05 PM 	IX193 	
+Lucknow (LKO)
+	Air India Express 	B738 (VT-AXR) 	
+	Scheduled
+5:10 PM 	QR1012 	
+Doha (DOH)
+	Qatar Airways 	321 	
+	Scheduled
+5:15 PM 	FZ158 	
+Beirut (BEY)
+	FlyDubai 	B738 (A6-FEB) 	
+	Estimated 5:22 PM
+5:15 PM 	FZ304 	
+Kabul (KBL)
+	FlyDubai 	B738 (A6-FER) 	
+	Estimated 5:02 PM
+5:20 PM 	EK507 	
+Mumbai (BOM)
+	Emirates 	B773 (A6-EMM) 	
+	Estimated 4:58 PM
+5:25 PM 	PS371 	
+Kiev (KBP)
+	Ukraine International Airlines 	B739 (UR-PSJ) 	
+	Delayed 6:11 PM
+5:25 PM 	FZ876 	
+Taif (TIF)
+	FlyDubai 	B738 (A6-FEG) 	
+	Estimated 5:20 PM
+5:25 PM 	FZ864 	
+Dammam (DMM)
+	FlyDubai 	73H 	
+	Scheduled
+5:30 PM 	FZ4 	
+Doha (DOH)
+	FlyDubai 	B738 (A6-FDD) 	
+	Scheduled
+5:30 PM 	FZ26 	
+Bahrain (BAH)
+	FlyDubai 	73H 	
+	Scheduled
+5:30 PM 	IX191 	
+Amritsar (ATQ)
+	Air India Express 	B738 (VT-AYC) 	
+	Estimated 5:37 PM
+5:35 PM 	FZ858 	
+Al-Qassim (ELQ)
+	FlyDubai 	B738 (A6-FEM) 	
+	Scheduled
+5:45 PM 	EK928 	
+Cairo (CAI)
+	Emirates 	B773 (A6-EMN) 	
+	Estimated 5:37 PM
+5:45 PM 	QS1350 	
+Ostrava (OSR)
+	SmartWings (Travel Service) 	B738 (OM-TSG) 	
+	Estimated 5:02 PM
+5:50 PM 	KU673 	
+Kuwait City (KWI)
+	Kuwait Airways 	A320 (9K-AKG) 	
+	Scheduled
+5:50 PM 	EK958 	
+Beirut (BEY)
+	Emirates 	B77W (A6-EGQ) 	
+	Estimated 5:15 PM
+5:55 PM 	9W538 	
+Mumbai (BOM)
+	Jet Airways 	B738 (VT-JBD) 	
+	Estimated 5:45 PM
+6:00 PM 	FZ60 	
+Kuwait City (KWI)
+	FlyDubai 	73H 	
+	Canceled
+6:00 PM 	FZ732 	
+Ashgabat (ASB)
+	FlyDubai 	B738 (A6-FET) 	
+	Scheduled
+6:00 PM 	FZ814 	
+Abha (AHB)
+	FlyDubai 	B738 (A6-FEK) 	
+	Scheduled
+6:20 PM 	FZ242 	
+Tehran (IKA)
+	FlyDubai 	B738 (A6-FDM) 	
+	Scheduled
+6:20 PM 	6E55 	
+Chandigarh (IXC)
+	IndiGo 	A320 (VT-IEM) 	
+	Scheduled
+6:30 PM 	XY509 	
+Jeddah (JED)
+	Flynas 	320 	
+	Scheduled
+6:30 PM 	W51192 	
+Shiraz (SYZ)
+	Mahan Air 	146 	
+	Scheduled
+6:30 PM 	T5811 	
+Ashgabat (ASB)
+	Turkmenistan Airlines 	737 	
+	Scheduled
+6:30 PM 	QS1200 	
+Prague (PRG)
+	Travel Service 	B738 (OK-TVL) 	
+	Estimated 6:02 PM
+6:30 PM 	KE951 	
+Seoul (ICN)
+	Korean Air 	A332 (HL8276) 	
+	Estimated 5:07 PM
+6:35 PM 	EK517 	
+Delhi (DEL)
+	Emirates 	77W 	
+	Scheduled
+6:40 PM 	EK2818 	
+Jeddah (JED)
+	Emirates 	77W 	
+	Scheduled
+6:40 PM 	FZ708 	
+Baku (GYD)
+	FlyDubai 	B738 (A6-FDR) 	
+	Scheduled
+6:40 PM 	WY617 	
+Salalah (SLL)
+	Oman Air 	E75 	
+	Scheduled
+6:45 PM 	SV564 	
+Medina (MED)
+	Saudia 	A321 (HZ-ASW) 	
+	Scheduled
+6:45 PM 	SV556 	
+Dammam (DMM)
+	Saudia 	A321 (HZ-ASI) 	
+	Scheduled
+6:45 PM 	SQ494 	
+Singapore (SIN)
+	Singapore Airlines 	B77W (9V-SWN) 	
+	Estimated 6:21 PM
+6:50 PM 	FZ340 	
+Multan (MUX)
+	FlyDubai 	73H 	
+	Scheduled
+6:50 PM 	FZ554 	
+Colombo (CMB)
+	FlyDubai 	B738 (A6-FEQ) 	
+	Estimated 7:02 PM
+6:50 PM 	XY207 	
+Riyadh (RUH)
+	Flynas 	A320 (VP-CXG) 	
+	Scheduled
+6:55 PM 	AC56 	
+Toronto (YYZ)
+	Air Canada 	B77W (C-FIUR) 	
+	Estimated 6:45 PM
+6:55 PM 	EK844 	
+Doha (DOH)
+	Emirates 	77W 	
+	Scheduled
+6:55 PM 	FZ894 	
+Medina (MED)
+	FlyDubai 	B738 (A6-FDL) 	
+	Scheduled
+7:00 PM 	SV560 	
+Riyadh (RUH)
+	Saudia 	B77W (HZ-AK17) 	
+	Scheduled
+7:00 PM 	RQ5 	
+Kabul (KBL)
+	Kam Air 	320 	
+	Scheduled
+7:00 PM 	FG401 	
+Kandahar (KDH)
+	Ariana Afghan Airlines 	737 	
+	Scheduled
+7:00 PM 	EK44 	
+Frankfurt (FRA)
+	Emirates 	B77W (A6-EPS) 	
+	Estimated 6:30 PM
+7:00 PM 	EK236 	
+Chicago (ORD)
+	Emirates 	B77W (A6-ECC) 	
+	Estimated 7:00 PM
+7:05 PM 	EK641 	
+Kabul (KBL)
+	Emirates 	B77W (A6-EPB) 	
+	Scheduled
+7:10 PM 	EK42 	
+Birmingham (BHX)
+	Emirates 	B77W (A6-EBQ) 	
+	Estimated 6:45 PM
+7:10 PM 	EK54 	
+Munich (MUC)
+	Emirates 	B77W (A6-EGN) 	
+	Estimated 6:45 PM
+7:10 PM 	EK944 	
+Baghdad (BGW)
+	Emirates 	77W 	
+	Scheduled
+7:10 PM 	FZ344 	
+Faisalabad (LYP)
+	FlyDubai 	73H 	
+	Scheduled
+7:10 PM 	QR1008 	
+Doha (DOH)
+	Qatar Airways 	320 	
+	Scheduled
+7:20 PM 	EK768 	
+Johannesburg (JNB)
+	Emirates 	B77W (A6-ENM) 	
+	Estimated 7:06 PM
+7:20 PM 	EK212 	
+Houston (IAH)
+	Emirates 	B77W (A6-ECM) 	
+	Estimated 6:38 PM
+7:25 PM 	EK226 	
+San Francisco (SFO)
+	Emirates 	A388 (A6-EOC) 	
+	Estimated 6:49 PM
+7:25 PM 	FZ716 	
+Yerevan (EVN)
+	FlyDubai 	B738 (A6-FEL) 	
+	Scheduled
+7:30 PM 	EK216 	
+Los Angeles (LAX)
+	Emirates 	A388 (A6-EEP) 	
+	Estimated 6:51 PM
+7:30 PM 	EK238 	
+Boston (BOS)
+	Emirates 	B77W (A6-ECD) 	
+	Estimated 7:08 PM
+7:30 PM 	SV550 	
+Jeddah (JED)
+	Saudi Arabian Airlines 	777 	
+	Scheduled
+7:30 PM 	IA105 	
+Sulaimaniyah (ISU)
+	Iraqi Airways 	CR9 	
+	Scheduled
+7:35 PM 	EK72 	
+Paris (CDG)
+	Emirates 	A388 (A6-EDX) 	
+	Estimated 7:28 PM
+7:40 PM 	FZ886 	
+Ha'il (HAS)
+	FlyDubai 	B738 (A6-FEX) 	
+	Scheduled
+7:45 PM 	EK230 	
+Seattle (SEA)
+	Emirates 	B77W (A6-ECS) 	
+	Estimated 6:49 PM
+7:45 PM 	EK22 	
+Manchester (MAN)
+	Emirates 	B77W (A6-ENE) 	
+	Estimated 7:06 PM
+7:45 PM 	IA105 	
+Sulaimaniyah (ISU)
+	Iraqi Airways 	737 	
+	Scheduled
+7:50 PM 	WY623 	
+Muscat (MCT)
+	Oman Air 	B738 (A4O-BD) 	
+	Scheduled
+7:50 PM 	FZ28 	
+Bahrain (BAH)
+	FlyDubai 	73H 	
+	Scheduled
+7:50 PM 	KU675 	
+Kuwait City (KWI)
+	Kuwait Airways 	A320 (9K-AKH) 	
+	Scheduled
+7:50 PM 	6E21 	
+Delhi (DEL)
+	IndiGo 	A320 (VT-IFY) 	
+	Scheduled
+7:55 PM 	EK377 	
+Bangkok (BKK)
+	Emirates 	A388 (A6-EOP) 	
+	Estimated 7:30 PM
+8:00 PM 	EK840 	
+Bahrain (BAH)
+	Emirates 	77L 	
+	Scheduled
+8:00 PM 	EK8 	
+London (LHR)
+	Emirates 	A388 (A6-EDK) 	
+	Estimated 7:28 PM
+8:05 PM 	IX539 	
+Thiruvananthapuram (TRV)
+	Air India Express 	738 	
+	Scheduled
+8:10 PM 	QR1026 	
+Doha (DOH)
+	Qatar Airways 	321 	
+	Scheduled
+8:15 PM 	EK202 	
+New York (JFK)
+	Emirates 	A388 (A6-EDA) 	
+	Estimated 8:02 PM
+8:15 PM 	EK865 	
+Muscat (MCT)
+	Emirates 	772 	
+	Scheduled
+8:15 PM 	FZ52 	
+Kuwait City (KWI)
+	FlyDubai 	73H 	
+	Scheduled
+8:15 PM 	FZ798 	
+Bucharest (OTP)
+	FlyDubai 	B738 (A6-FDY) 	
+	Scheduled
+8:20 PM 	FZ338 	
+Sialkot (SKT)
+	FlyDubai 	73H 	
+	Scheduled
+8:20 PM 	EK850 	
+Doha (DOH)
+	Emirates 	77L 	
+	Scheduled
+8:20 PM 	EK826 	
+Dammam (DMM)
+	Emirates 	777 	
+	Scheduled
+8:25 PM 	EK655 	
+Colombo (CMB)
+	Emirates 	B77W (A6-EGD) 	
+	Scheduled
+8:25 PM 	4Q201 	
+Kabul (KBL)
+	Safi Airways 	319 	
+	Scheduled
+8:25 PM 	6E67 	
+Cochin (COK)
+	IndiGo 	A320 (VT-IAO) 	
+	Scheduled
+8:30 PM 	TG517 	
+Bangkok (BKK)
+	Thai Airways 	A333 (HS-TBG) 	
+	Estimated 8:21 PM
+8:30 PM 	EK858 	
+Kuwait City (KWI)
+	Emirates 	A388 (A6-EEQ) 	
+	Scheduled
+8:35 PM 	EK12 	
+London (LGW)
+	Emirates 	A388 (A6-EEC) 	
+	Estimated 8:06 PM
+8:35 PM 	FZ6 	
+Doha (DOH)
+	FlyDubai 	73H 	
+	Scheduled
+8:35 PM 	GF510 	
+Bahrain (BAH)
+	Gulf Air 	A320 (A9C-AL) 	
+	Scheduled
+8:45 PM 	9W544 	
+Mumbai (BOM)
+	Jet Airways 	B77W (VT-JEH) 	
+	Scheduled
+8:45 PM 	XY209 	
+Riyadh (RUH)
+	Flynas 	320 	
+	Scheduled
+8:45 PM 	U6737 	
+Yekaterinburg (SVX)
+	Ural Airlines 	320 	
+	Scheduled
+8:45 PM 	FZ902 	
+Yekaterinburg (SVX)
+	FlyDubai 	B738 (A6-FEN) 	
+	Scheduled
+8:50 PM 	EK609 	
+Karachi (KHI)
+	Emirates 	B773 (A6-EMQ) 	
+	Scheduled
+8:50 PM 	EK724 	
+Addis Ababa (ADD)
+	Emirates 	77W 	
+	Scheduled
+8:55 PM 	EK503 	
+Mumbai (BOM)
+	Emirates 	B773 (A6-EMT) 	
+	Scheduled
+8:55 PM 	FZ620 	
+Entebbe (EBB)
+	FlyDubai 	B738 (A6-FDS) 	
+	Scheduled
+8:55 PM 	FZ912 	
+Moscow (VKO)
+	FlyDubai 	B738 (A6-FEZ) 	
+	Scheduled
+9:00 PM 	9W548 	
+Delhi (DEL)
+	Jet Airways 	73H 	
+	Scheduled
+9:00 PM 	6E61 	
+Mumbai (BOM)
+	IndiGo 	A320 (VT-IEL) 	
+	Scheduled
+9:00 PM 	Y97154 	
+Bushehr (BUZ)
+	Kish Air 	M82 	
+	Scheduled
+9:00 PM 	W565 	
+Tehran (IKA)
+	Mahan Air 	310 	
+	Scheduled
+9:00 PM 	SV552 	
+Riyadh (RUH)
+	Saudia 	A333 (HZ-AQB) 	
+	Scheduled
+9:05 PM 	FZ258 	
+Bandar Abbas (BND)
+	FlyDubai 	73H 	
+	Scheduled
+9:10 PM 	IR655 	
+Tehran (IKA)
+	Iran Air 	320 	
+	Scheduled
+9:10 PM 	QR1018 	
+Doha (DOH)
+	Qatar Airways 	77L 	
+	Scheduled
+9:15 PM 	6E39 	
+Thiruvananthapuram (TRV)
+	IndiGo 	A320 (VT-IAY) 	
+	Scheduled
+9:15 PM 	FZ612 	
+Juba (JUB)
+	FlyDubai 	B738 (A6-FES) 	
+	Scheduled
+9:15 PM 	FZ306 	
+Kabul (KBL)
+	FlyDubai 	B738 (A6-FDJ) 	
+	Scheduled
+9:15 PM 	EK262 	
+Sao Paulo (GRU)
+	Emirates 	B77W (A6-ECN) 	
+	Estimated 9:01 PM
+9:20 PM 	EK2810 	
+Medina (MED)
+	Emirates 	77W 	
+	Scheduled
+9:20 PM 	9W528 	
+Cochin (COK)
+	Jet Airways 	73H 	
+	Scheduled
+9:25 PM 	CZ6069 	
+Urumqi (URC)
+	China Southern Airlines 	757 	
+	Scheduled
+9:25 PM 	J9184 	
+Kuwait City (KWI)
+	Jazeera Airways 	320 	
+	Scheduled
+9:25 PM 	ME428 	
+Beirut (BEY)
+	MEA (Skyteam Livery) 	A320 (T7-MRD) 	
+	Scheduled
+9:30 PM 	SV594 	
+Jeddah (JED)
+	Saudia 	B772 (HZ-AKB) 	
+	Scheduled
+9:30 PM 	RJ614 	
+Amman (AMM)
+	Royal Jordanian 	A320 (JY-AYW) 	
+	Scheduled
+9:30 PM 	LX242 	
+Zurich (ZRH)
+	Swiss 	A333 (HB-JHC) 	
+	Scheduled
+9:30 PM 	EK3802 	
+Jeddah (JED)
+	Emirates 	B77W (A6-EPQ) 	
+	Scheduled
+9:35 PM 	EK730 	
+Entebbe (EBB)
+	Emirates 	B77W (A6-EPK) 	
+	Scheduled
+9:35 PM 	WY611 	
+Muscat (MCT)
+	Oman Air 	73J 	
+	Canceled
+9:40 PM 	5J14 	
+Manila (MNL)
+	CEBU Pacific Air 	A333 (RP-C3344) 	
+	Estimated 9:23 PM
+9:45 PM 	SG15 	
+Ahmedabad (AMD)
+	SpiceJet 	737 	
+	Scheduled
+9:45 PM 	FZ868 	
+Dammam (DMM)
+	FlyDubai 	73H 	
+	Scheduled
+9:45 PM 	FZ48 	
+Muscat (MCT)
+	FlyDubai 	73H 	
+	Scheduled
+9:45 PM 	EK904 	
+Amman (AMM)
+	Emirates 	B77W (A6-EGI) 	
+	Scheduled
+9:45 PM 	EK124 	
+Istanbul (IST)
+	Emirates 	B77L (A6-EWB) 	
+	Scheduled
+9:50 PM 	UL225 	
+Colombo (CMB)
+	SriLankan Airlines 	332 	
+	Scheduled
+9:55 PM 	SG51 	
+Pune (PNQ)
+	SpiceJet 	737 	
+	Scheduled
+9:55 PM 	FZ834 	
+Jeddah (JED)
+	FlyDubai 	73H 	
+	Scheduled
+9:55 PM 	FZ64 	
+Kuwait City (KWI)
+	FlyDubai 	73H 	
+	Scheduled
+9:55 PM 	AI983 	
+Mumbai (BOM)
+	Air India 	A321 (VT-PPI) 	
+	Scheduled
+10:00 PM 	AI905 	
+Chennai (MAA)
+	Air India 	A321 (VT-PPH) 	
+	Scheduled
+10:00 PM 	FZ728 	
+Kiev (IEV)
+	FlyDubai 	73H 	
+	Scheduled
+10:05 PM 	SG23 	
+Madurai (IXM)
+	Corendon Airlines 	B738 (TC-TJO) 	
+	Scheduled
+10:05 PM 	FZ758 	
+Sofia (SOF)
+	FlyDubai 	B738 (A6-FEU) 	
+	Scheduled
+10:05 PM 	EK180 	
+Warsaw (WAW)
+	Emirates 	77W 	
+	Scheduled
+10:05 PM 	EK106 	
+Athens (ATH)
+	Emirates 	B77W (A6-ENZ) 	
+	Scheduled
+10:10 PM 	EK587 	
+Dhaka (DAC)
+	Emirates 	77W 	
+	Scheduled
+10:15 PM 	BG51 	
+Dhaka (DAC)
+	Biman Bangladesh Airlines 	773 	
+	Scheduled
+10:15 PM 	CX731 	
+Hong Kong (HKG)
+	Cathay Pacific 	A333 (B-HLW) 	
+	Estimated 9:53 PM
+10:15 PM 	FZ786 	
+Bratislava (BTS)
+	FlyDubai 	B738 (A6-FDU) 	
+	Scheduled
+10:20 PM 	EK876 	
+Kuwait City (KWI)
+	Emirates 	77W 	
+	Scheduled
+10:20 PM 	FZ780 	
+Prague (PRG)
+	FlyDubai 	B738 (A6-FDP) 	
+	Scheduled
+10:25 PM 	FZ8 	
+Doha (DOH)
+	FlyDubai 	73H 	
+	Scheduled
+10:25 PM 	WY613 	
+Muscat (MCT)
+	Oman Air 	73J 	
+	Scheduled
+10:25 PM 	AI951 	
+Hyderabad (HYD)
+	Air India 	A321 (VT-PPV) 	
+	Scheduled
+10:30 PM 	EK347 	
+Kuala Lumpur (KUL)
+	Emirates 	A388 (A6-EOB) 	
+	Scheduled
+10:35 PM 	EK720 	
+Nairobi (NBO)
+	Emirates 	B77W (A6-EBN) 	
+	Scheduled
+10:35 PM 	FZ576 	
+Kathmandu (KTM)
+	Flydubai 	B738 (A6-FGA) 	
+	Scheduled
+10:35 PM 	GF512 	
+Bahrain (BAH)
+	Gulf Air 	A320 (A9C-AB) 	
+	Scheduled
+10:40 PM 	IX813 	
+Mangalore (IXE)
+	Air India Express 	738 	
+	Scheduled
+10:45 PM 	FZ762 	
+Sarajevo (SJJ)
+	FlyDubai 	B738 (A6-FEF) 	
+	Scheduled
+10:45 PM 	EK248 	
+Rio de Janeiro (GIG)
+	Emirates 	B77L (A6-EWD) 	
+	Estimated 10:31 PM
+10:45 PM 	EK206 	
+Milan (MXP)
+	Emirates 	A388 (A6-EOL) 	
+	Scheduled
+10:45 PM 	AI995 	
+Delhi (DEL)
+	Air India 	B788 (VT-ANI) 	
+	Scheduled
+10:45 PM 	LH630 	
+Frankfurt (FRA)
+	Lufthansa 	B744 (D-ABVO) 	
+	Scheduled
+10:50 PM 	EK567 	
+Bangalore (BLR)
+	Emirates 	B77W (A6-EGY) 	
+	Scheduled
+10:50 PM 	EK980 	
+Tehran (IKA)
+	Emirates 	77W 	
+	Scheduled
+10:55 PM 	EK134 	
+Moscow (DME)
+	Emirates 	B77W (A6-EBO) 	
+	Scheduled
+10:55 PM 	EK158 	
+Stockholm (ARN)
+	Emirates 	B77W (A6-EGZ) 	
+	Scheduled
+10:55 PM 	EK702 	
+Port Louis (MRU)
+	Emirates (United for Wildlife Livery) 	A388 (A6-EEI) 	
+	Scheduled
+10:55 PM 	FZ212 	
+Baghdad (BGW)
+	FlyDubai 	73H 	
+	Scheduled
+11:00 PM 	FZ172 	
+Alexandria (HBE)
+	FlyDubai 	73H 	
+	Scheduled
+11:00 PM 	QF10 	
+London (LHR)
+	Qantas 	A388 (VH-OQH) 	
+	Scheduled
+11:05 PM 	EK112 	
+Budapest (BUD)
+	Emirates 	773 	
+	Scheduled
+11:05 PM 	EK383 	
+Hong Kong (HKG)
+	Emirates 	A388 (A6-EOV) 	
+	Estimated 10:57 PM
+11:05 PM 	EK726 	
+Dar-es-Salaam (DAR)
+	Emirates 	B77W (A6-EGW) 	
+	Scheduled
+11:10 PM 	EK631 	
+Multan (MUX)
+	Emirates 	77W 	
+	Scheduled
+11:10 PM 	QR1014 	
+Doha (DOH)
+	Qatar Airways 	788 	
+	Scheduled
+11:15 PM 	FZ635 	
+Khartoum (KRT)
+	FlyDubai 	73H 	
+	Scheduled
+11:15 PM 	EK357 	
+Jakarta (CGK)
+	Emirates 	B77W (A6-EBD) 	
+	Scheduled
+11:15 PM 	EK333 	
+Manila (MNL)
+	Emirates 	B77W (A6-ENA) 	
+	Estimated 10:44 PM
+11:15 PM 	CA941 	
+Beijing (PEK)
+	Air China 	A333 (B-5901) 	
+	Estimated 10:03 PM
+11:20 PM 	AF662 	
+Paris (CDG)
+	Air France 	77W 	
+	Scheduled
+11:20 PM 	EK94 	
+Bologna (BLQ)
+	Emirates 	B77W (A6-EGP) 	
+	Scheduled
+11:20 PM 	PK213 	
+Karachi (KHI)
+	Pakistan Int. Airlines 	320 	
+	Scheduled
+11:25 PM 	EK50 	
+Munich (MUC)
+	Emirates 	A388 (A6-EDR) 	
+	Scheduled
+11:25 PM 	EK160 	
+Oslo (OSL)
+	Emirates 	77W 	
+	Scheduled
+11:25 PM 	FZ58 	
+Kuwait City (KWI)
+	FlyDubai 	73H 	
+	Scheduled
+11:30 PM 	EK882 	
+Doha (DOH)
+	Emirates 	773 	
+	Scheduled
+11:30 PM 	BA107 	
+London (LHR)
+	British Airways 	B744 (G-BYGG) 	
+	Scheduled
+11:35 PM 	EK128 	
+Vienna (VIE)
+	Emirates 	A388 (A6-EUA) 	
+	Scheduled
+11:35 PM 	EK749 	
+Luqa (MLA)
+	Emirates 	773 	
+	Scheduled
+11:35 PM 	FZ22 	
+Bahrain (BAH)
+	FlyDubai 	73H 	
+	Scheduled
+11:35 PM 	FZ50 	
+Muscat (MCT)
+	FlyDubai 	73H 	
+	Scheduled
+11:45 PM 	EK762 	
+Johannesburg (JNB)
+	Emirates 	77W 	
+	Scheduled
+11:45 PM 	EK152 	
+Copenhagen (CPH)
+	Emirates 	A388 (A6-EOS) 	
+	Scheduled
+11:45 PM 	EK88 	
+Zurich (ZRH)
+	Emirates 	A388 (A6-EUJ) 	
+	Scheduled
+11:45 PM 	EK78 	
+Nice (NCE)
+	Emirates 	B77W (A6-ENU) 	
+	Scheduled
+11:45 PM 	EK46 	
+Frankfurt (FRA)
+	Emirates 	A388 (A6-EUB) 	
+	Scheduled
+11:50 PM 	EK98 	
+Rome (FCO)
+	Emirates 	B77W (A6-EBB) 	
+	Scheduled
+11:55 PM 	EK509 	
+Mumbai (BOM)
+	Emirates 	77L 	
+	Scheduled
+11:55 PM 	EK515 	
+Delhi (DEL)
+	Emirates 	77W 	
+	Scheduled
+11:59 PM 	EK603 	
+Karachi (KHI)
+	Emirates 	77W 	
+	Scheduled
+11:59 PM 	EK529 	
+Hyderabad (HYD)
+	Emirates 	B77W (A6-EPH) 	
+	Scheduled
+11:59 PM 	KL427 	
+Amsterdam (AMS)
+	KLM 	B772 (PH-BQB) 	
+	Scheduled

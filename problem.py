@@ -29,8 +29,7 @@ class Problem:
     
     ###OUTPUT
     self.genoutput()
-    #self.schedule = self.rearrangeoutput()
-    #self.schedule = self.filteroutput()
+
 
   def genconstraints(self):
     """Function to generate the constraints, a string is added to each one of them to describe the constraint textually"""
@@ -52,14 +51,15 @@ class Problem:
     self.problem += lpSum([self.variables[event] for event in self.events if event.split("->")[0] =="0"]) == 1, "starting plane criterion"       #only one starting plane
     self.problem += lpSum([self.variables[event] for event in self.events if event.split("->")[-1] =="0"]) == 1, "last plane criterion"          #only one last plane (this is not counted towards the number of a/c)
   
+
   def end_begin(self, x, typ):
     """ List comprehension that is quite often used returning a list with only the events beginning or ending with a certain typ from the entire list"""
     return [self.variables[event] for event in self.events if event.split("->")[x] == typ]
 
+
   def middle(self, to):
     """ List comprehension filtering the takeoff events from the events"""
     return [(event.split("->")[1:]).count("T_"+to) * self.variables[event] for event in self.events]
-
 
 
   def gencosts(self):
@@ -109,6 +109,7 @@ class Problem:
         f.write('{:30}'.format(event) + str(cost) + "\n")
     return costs
 
+
   def genevents(self):
     """ Function to generate all possible events based on the list of aircraft types present. Events are depicted as the former aircraft type followed by the current aircraft type.
     Everything is listed as a string. A 0 means either the start or the end of the problem (see constraints)"""
@@ -133,6 +134,7 @@ class Problem:
         f.write(event + "\n")
     return events
 
+
   def genoutput(self):
     """ Function that writes the problem to an LP file. Following this the problem is solved and the results are printed"""
     # Might be nice to make a more elegant algorithm
@@ -151,49 +153,6 @@ class Problem:
     self.value = value(self.problem.objective)
     print ("done")
 
-  def rearrangeoutput(self):
-    """Function to rearrange the result into a schedule."""
-    ###TODO: explore option tree (at this points it takes the first option only, not always leading to the correct soln)
-    result = self.result
-    schedule = []
-    last = "0"
-    for i in range(1,1000):
-      for r in result:
-        if r.split("_")[1] == last and r.split("_")[-1]!="0":
-          schedule.append(r)
-          result[r] -= 1
-          if result [r] == 0:
-            del result[r]
-          for t in result:
-            if t.split("_")[-1] == r:
-              while True:
-                schedule.append(t)
-                result[t] -= 1
-                if result [t] <= 0:
-                  del result[t]
-                  break
-          last = r.split("_")[-1]
-          break
-      if len(result) == 1:
-        for r in result:
-          schedule.append(r)
-    with open("data/problemout.txt", "a") as f:
-      for s in schedule:
-        f.write(s+"\n")
-    return schedule
-
-  def filteroutput(self):
-    """Function that takes the rearranged output and filters it to a list of single events"""
-    schedule = []
-    for event in self.schedule:
-      for i, flight in enumerate(self.getevent(event)[0]):
-        if i != 0:
-          if flight != "0":
-            schedule.append(flight)
-    with open("data/problemout.txt", "a") as f:
-      for s in schedule:
-        f.write(s+"\n")
-    return schedule
 
   def getevent(self, var):
     """Takes a problem variable and returns the corresponding event string, as well as a list of discrete events."""
@@ -205,8 +164,8 @@ class Problem:
     event = event[:-2]
     return v, event
 
+
   def firstplane(self, first):
-    ###TODO takeoffs
     if (first and not "T_" in first):
       if first in self.landings:
         self.landings[first] += 1

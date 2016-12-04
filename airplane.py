@@ -22,10 +22,14 @@ class airplane(object):
   def search(self):
     """Function that looks on the site skybrary.aero for the airplane type. If it's found the 
     approachspeed and MTOW are extracted and saved to the types.txt file for speed on subsequent runs."""
+    
+    ### Download the page
     try:
       r = requests.get("http://www.skybrary.aero/index.php/"+self.actype)
     except:
       pass
+    
+    ###Scan the page for info of interest
     try:
       self.wtc = re.findall(r'WTC.+\s.+?([A-Z]{1,2})', r.text)[0]
     except:
@@ -39,11 +43,18 @@ class airplane(object):
      self.MTOW = re.findall(r'MTOW[\w\W]+?(\d{4,6})',r.text)[0]
     except:
       self.MTOW = 0
-    with open("data/types.txt", "a") as f:
-      f.write(self.actype + "    " + str(self.approachspeed) + "    " + str(self.MTOW) + "    " + self.wtc + "\n")
+    
+    ### Write the found data to files
+    try:
+      with open("data/types.txt", "a") as f:
+        f.write(self.actype + "    " + str(self.approachspeed) + "    " + str(self.MTOW) + "    " + self.wtc + "\n")
+    except:
+      with open("data/types.txt", "w") as f:
+        f.write(self.actype + "    " + str(self.approachspeed) + "    " + str(self.MTOW) + "    " + self.wtc + "\n")
+
 
   def param(self):
-    """Function that runs through the types.txt file and checks for the aircraft type. If it isn't in the file
+    """Function that runs through the types.txt file and checks for the aircraft type. If it isn't found in the file
     an internet search is tried."""    
     x = 0
     try:
@@ -55,7 +66,7 @@ class airplane(object):
               self.MTOW = int(r[1])
               self.approachspeed = int(r[0])
               self.wtc = r[2]
-              x = 1              
+              x = 1
             except:
               x = 1
               pass
@@ -63,6 +74,7 @@ class airplane(object):
       pass
     if not x:
       self.search()
+
 
 if __name__ == "__main__":
   a = airplane("B77W")
